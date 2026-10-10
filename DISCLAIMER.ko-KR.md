@@ -1,6 +1,7 @@
 ## 면책 조항
 
 <p align="center">
+  <a href="DISCLAIMER.ru-RU.md">Русский</a> |
   <a href="DISCLAIMER.md">English</a> |
   <a href="DISCLAIMER.zh-CN.md">简体中文</a> |
   <a href="DISCLAIMER.de-DE.md">Deutsch</a> |

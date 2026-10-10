@@ -31,13 +31,15 @@ OpenBot использует смартфоны в качестве «мозга
 
 ## Начало работы с OpenBot
 
-- Прочитайте [отказ от ответственности](DISCLAIMER.md).
-- Соберите [корпус робота](body/README.md).
-- Загрузите [прошивку Arduino](firmware/README.md).
-- Установите [приложения для Android](android/README.md).
-- Управляйте роботом с помощью [контроллера](controller/README.md).
+- Прочитайте [отказ от ответственности](DISCLAIMER.ru-RU.md).
+- Соберите [корпус робота](body/README.ru-RU.md) по [инструкции OpenBot DIY](body/diy/README.ru-RU.md).
+- Загрузите [прошивку микроконтроллера](firmware/README.ru-RU.md).
+- Установите [приложения для Android](android/README.ru-RU.md).
+- Выберите [пульт управления](controller/README.ru-RU.md).
 - Программируйте робота в [среде Playground](open-code/README.md).
 - Обучите собственную [модель управления движением](policy/README.md).
+
+Для русской документации по сборке и запуску используйте [глоссарий терминов](GLOSSARY.ru-RU.md).
 
 ## Ветки форка
 

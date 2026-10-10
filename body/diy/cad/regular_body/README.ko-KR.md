@@ -1,6 +1,7 @@
 # 순정 몸체
 
 <p align="center">
+  <a href="README.ru-RU.md">Русский</a> |
   <a href="README.md">English</a> |
   <a href="README.zh-CN.md">简体中文</a> |
   <a href="README.de-DE.md">Deutsch</a> |

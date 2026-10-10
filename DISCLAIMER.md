@@ -1,6 +1,7 @@
 ## DISCLAIMER
 
 <p align="center">
+  <a href="DISCLAIMER.ru-RU.md">Русский</a> |
   <span>English</span> |
   <a href="DISCLAIMER.zh-CN.md">简体中文</a> |
   <a href="DISCLAIMER.de-DE.md">Deutsch</a> |
