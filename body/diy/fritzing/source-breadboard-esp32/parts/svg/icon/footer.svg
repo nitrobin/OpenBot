@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.11111111in" height="2.11111111in" viewBox="0 0 1810 190">
+<g id="icon">
+<text x="8" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* DC/DC моторы: подбери напряжение и ток по своим TT. Клемма +12V / VS не требует именно 12 В.</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* На ESP32 подавай только стабилизированные 5 В на подтверждённый вход 5V / VIN. 3S напрямую нельзя.</text>
+<text x="8" y="81" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* При USB-питании ESP32 отсоедини внешний источник от его 5V / VIN. GND всех узлов соединён.</text>
+<text x="8" y="108" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* LM393: питание 3,3 В только для совместимого модуля; модуль 5 В требует согласователя уровней.</text>
+<text x="8" y="135" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* GPIO2 / GPIO5 / GPIO12 / GPIO15 задают режим запуска; не допускай внешней подтяжки GPIO12 к 5 В.</text>
+<text x="8" y="162" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">NC = не подключено · Поворотники и OLED здесь отключены · Файл схемы не меняет прошивку.</text>
+</g></svg>

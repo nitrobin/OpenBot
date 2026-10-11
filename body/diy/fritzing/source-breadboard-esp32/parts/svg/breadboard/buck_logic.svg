@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.55555556in" height="2.72222222in" viewBox="0 0 320 245">
+<g id="breadboard">
+<text x="160" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="20" fill="#203040" text-anchor="middle" font-weight="bold">5 В · логика</text>
+<rect x="10" y="60" width="300" height="175" rx="12" fill="#1c6896" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="285" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="215" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="285" cy="215" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<rect x="124" y="96" width="65" height="65" rx="5" fill="#434a52" stroke="#495463" stroke-width="2"/>
+<text x="156" y="137" font-family="Noto Sans,Arial,sans-serif" font-size="20" fill="#e2e7ea" text-anchor="middle" font-weight="normal">470</text>
+<circle cx="91" cy="179" r="24" fill="#6e7781" stroke="#495463" stroke-width="2"/>
+<circle cx="91" cy="179" r="18" fill="#d7dade" stroke="#495463" stroke-width="2"/>
+<path d="M79 179 H103 M91 167 V191" stroke="#7b8188" stroke-width="2"/>
+<circle cx="252" cy="179" r="24" fill="#6e7781" stroke="#495463" stroke-width="2"/>
+<circle cx="252" cy="179" r="18" fill="#d7dade" stroke="#495463" stroke-width="2"/>
+<path d="M240 179 H264 M252 167 V191" stroke="#7b8188" stroke-width="2"/>
+<rect x="212" y="92" width="37" height="45" rx="0" fill="#377bb9" stroke="#495463" stroke-width="2"/>
+<rect x="222" y="106" width="16" height="8" rx="0" fill="#aab6c3" stroke="#495463" stroke-width="2"/>
+<text x="160" y="234" font-family="Noto Sans,Arial,sans-serif" font-size="14" fill="#203040" text-anchor="middle" font-weight="normal">DC/DC · корпус условный</text>
+<circle id="connector0pin" cx="25" cy="115" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="24.5" y="114.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="40" y="121" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IN+</text>
+<circle id="connector1pin" cx="295" cy="115" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="294.5" y="114.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="280" y="121" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">OUT+</text>
+<circle id="connector2pin" cx="25" cy="195" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="24.5" y="194.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="40" y="201" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">GND</text>
+</g></svg>

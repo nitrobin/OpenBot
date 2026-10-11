@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.55555556in" height="1.00000000in" viewBox="0 0 140 90">
+<g id="schematic">
+<line x1="0" y1="40" x2="140" y2="40" stroke="#333" stroke-width="2"/>
+<rect x="48" y="30" width="44" height="20" fill="#fff" stroke="#333" stroke-width="2"/>
+<text x="70" y="21" font-family="Noto Sans,Arial,sans-serif" font-size="20" font-weight="bold" fill="#172433" text-anchor="middle">R1 · 30 кОм</text>
+<line id="connector0pin" x1="0" y1="40" x2="20" y2="40" stroke="#555" stroke-width="2"/>
+<rect id="connector0terminal" x="-0.5" y="39.5" width="1" height="1" fill="none" stroke="none"/>
+<line id="connector1pin" x1="140" y1="40" x2="120" y2="40" stroke="#555" stroke-width="2"/>
+<rect id="connector1terminal" x="139.5" y="39.5" width="1" height="1" fill="none" stroke="none"/>
+</g></svg>

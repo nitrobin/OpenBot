@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.77777778in" height="3.00000000in" viewBox="0 0 340 270">
+<g id="breadboard">
+<text x="170" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="24" fill="#203040" text-anchor="middle" font-weight="bold">HC-SR04</text>
+<rect x="10" y="60" width="320" height="200" rx="12" fill="#185b9a" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="305" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="240" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="305" cy="240" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="95" cy="127" r="61" fill="#c4cbd0" stroke="#495463" stroke-width="2"/>
+<circle cx="95" cy="127" r="50" fill="#576773" stroke="#495463" stroke-width="2"/>
+<circle cx="95" cy="127" r="41" fill="#b0b9c0" stroke="#495463" stroke-width="2"/>
+<path d="M65 105 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 113 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 121 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 129 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 137 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 145 H125" stroke="#727f8c" stroke-width="2"/>
+<path d="M65 153 H125" stroke="#727f8c" stroke-width="2"/>
+<circle cx="245" cy="127" r="61" fill="#c4cbd0" stroke="#495463" stroke-width="2"/>
+<circle cx="245" cy="127" r="50" fill="#576773" stroke="#495463" stroke-width="2"/>
+<circle cx="245" cy="127" r="41" fill="#b0b9c0" stroke="#495463" stroke-width="2"/>
+<path d="M215 105 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 113 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 121 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 129 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 137 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 145 H275" stroke="#727f8c" stroke-width="2"/>
+<path d="M215 153 H275" stroke="#727f8c" stroke-width="2"/>
+<circle id="connector0pin" cx="140" cy="230" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="139.5" y="229.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(145 215) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">Trig</text></g>
+<circle id="connector1pin" cx="200" cy="230" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="199.5" y="229.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(205 215) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">Echo</text></g>
+<circle id="connector2pin" cx="80" cy="230" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="79.5" y="229.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(85 215) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">VCC</text></g>
+<circle id="connector3pin" cx="260" cy="230" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector3terminal" x="259.5" y="229.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(265 215) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">GND</text></g>
+</g></svg>

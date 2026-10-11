@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<module moduleId="OpenBot_DIY_nano_junction_5V_v1" fritzingVersion="1.0.8">
+  <title>Соединение 5V</title>
+  <version>1</version>
+  <author>nitrobin / OpenBot fork</author>
+  <description>Native electrical branch contact; CC BY-SA 3.0.</description>
+  <properties>
+    <property name="family">OpenBot wiring junction</property>
+    <property name="part number">5V</property>
+  </properties>
+  <views>
+    <breadboardView>
+      <layers image="breadboard/junction_5V.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <iconView>
+      <layers image="icon/junction_5V.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+  </views>
+  <connectors>
+    <connector id="connector0" type="male" name="junction">
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector0pin" terminalId="connector0terminal" />
+        </breadboardView>
+      </views>
+    </connector>
+  </connectors>
+</module>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.88888889in" height="1.44444444in" viewBox="0 0 170 130">
+<g id="schematic">
+<rect x="20" y="20" width="130" height="90" rx="8" fill="#fff0b6" stroke="#426077" stroke-width="1.6"/>
+<text x="85.0" y="43" font-family="Noto Sans,Arial,sans-serif" font-size="12" font-weight="bold" fill="#172433" text-anchor="middle">M1 · левый передний</text>
+<text x="85.0" y="67" font-family="Noto Sans,Arial,sans-serif" font-size="13" font-weight="normal" fill="#172433" text-anchor="middle">Мотор-редуктор TT</text>
+<circle cx="75" cy="92" r="22" fill="#fff" stroke="#426077" stroke-width="2"/>
+<text x="75" y="100" font-family="Noto Sans,Arial,sans-serif" font-size="23" font-weight="normal" fill="#172433" text-anchor="middle">M</text>
+<line id="connector0pin" x1="170" y1="60" x2="150" y2="60" stroke="#555" stroke-width="2"/>
+<rect id="connector0terminal" x="169.5" y="59.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="144" y="65" font-family="Noto Sans,Arial,sans-serif" font-size="15" font-weight="normal" fill="#172433" text-anchor="end">+</text>
+<line id="connector1pin" x1="170" y1="100" x2="150" y2="100" stroke="#555" stroke-width="2"/>
+<rect id="connector1terminal" x="169.5" y="99.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="144" y="105" font-family="Noto Sans,Arial,sans-serif" font-size="15" font-weight="normal" fill="#172433" text-anchor="end">−</text>
+</g></svg>

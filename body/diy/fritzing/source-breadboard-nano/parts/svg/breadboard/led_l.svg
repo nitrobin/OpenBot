@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.00000000in" height="2.16666667in" viewBox="0 0 180 195">
+<g id="breadboard">
+<text x="85" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="middle" font-weight="bold">LED L · левый</text>
+<path d="M45 90 V160 M110 90 V160" stroke="#a6acb1" stroke-width="5"/>
+<path d="M37 100 V78 A42 42 0 0 1 84 37 Q119 43 119 78 V100 Z" fill="#e79b1e" stroke="#965e12" stroke-width="2"/>
+<circle cx="70" cy="66" r="10" fill="#f9cb68" stroke="#f9cb68" stroke-width="2"/>
+<text x="45" y="183" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#203040" text-anchor="middle" font-weight="normal">A (+)</text>
+<text x="110" y="183" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#203040" text-anchor="middle" font-weight="normal">K (−)</text>
+<circle id="connector0pin" cx="45" cy="160" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="44.5" y="159.5" width="1" height="1" fill="none" stroke="none"/>
+<circle id="connector1pin" cx="110" cy="160" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="109.5" y="159.5" width="1" height="1" fill="none" stroke="none"/>
+</g></svg>

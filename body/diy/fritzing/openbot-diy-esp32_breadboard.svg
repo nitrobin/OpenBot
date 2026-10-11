@@ -1,0 +1,994 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (https://fritzing.org/) -->
+<svg xmlns="http://www.w3.org/2000/svg" baseProfile="tiny" height="21.32in" version="1.2" viewBox="0 0 23333.3 21320" width="23.3333in" x="0in"  xmlns:svg="http://www.w3.org/2000/svg" y="0in">
+ <g id="watermark" >
+  <g >
+   <g >
+    <path d="M22989.8,21233.9c-8.38889,0,-15.7083,4.51389,-19.75,11.2361l-38.8333,0l55,-56.5417c2.02778,-2.02778,4.01389,-4.47222,5.94444,-7.23611c2.06944,-3.08333,3.16667,-6.65278,3.16667,-10.6667c0,-3.875,-1.34722,-7.19444,-3.98611,-9.86111c-2.63889,-2.61111,-6.16667,-3.98611,-10.4722,-3.98611l-64.3889,0c-4.23611,0,-7.70833,0.833333,-10.3056,2.36111c-3.04167,1.80556,-4.58333,5.11111,-4.58333,9.81944c0,4.56944,1.54167,7.80556,4.58333,9.61111c2.61111,1.54167,6.08333,2.33333,10.3056,2.33333l43.7222,0l-55.1944,56.75c-2.02778,2.04167,-4.01389,4.375,-5.90278,7c-2.125,2.94444,-3.19444,6.55556,-3.19444,10.7083c0,3.88889,1.33333,7.23611,4,9.875c2.61111,2.61111,6.13889,3.95833,10.4722,3.95833l59.9306,0c4.06944,6.48611,11.2778,10.7778,19.4444,10.7778c12.7222,0,23.0556,-10.3333,23.0556,-23.0694C23012.8,21244.3,23002.5,21233.9,22989.8,21233.9zM22989.8,21265.3c-4.63889,0,-8.38889,-3.76389,-8.38889,-8.38889c0,-4.625,3.75,-8.38889,8.38889,-8.38889c4.61111,0,8.38889,3.76389,8.38889,8.38889C22998.2,21261.6,22994.4,21265.3,22989.8,21265.3z" fill="#8C8C8C" />
+    <path d="M22754.5,21094.4c-12.6944,0,-23.0417,10.3472,-23.0417,23.0556c0,12.7222,10.3472,23.0556,23.0417,23.0556s23.0278,-10.3333,23.0278,-23.0556C22777.5,21104.8,22767.2,21094.4,22754.5,21094.4zM22754.5,21125.9c-4.625,0,-8.38889,-3.75,-8.38889,-8.375s3.76389,-8.375,8.38889,-8.375c4.59722,0,8.38889,3.75,8.38889,8.375S22759.1,21125.9,22754.5,21125.9z" fill="#8C8C8C" />
+    <path d="M22872.8,21159.2c-2.68056,-1.54167,-6.09722,-2.34722,-10.1667,-2.34722l-20.3472,0L22842.3,21121.8c0,-4.05556,-0.791667,-7.47222,-2.30556,-10.125C22838.8,21109.5,22836.1,21106.9,22830.4,21106.9c-4.72222,0,-8.02778,1.61111,-9.84722,4.75c-1.51389,2.68056,-2.31944,6.08333,-2.31944,10.125l0,35.0139l-6.68056,0c-4.09722,0,-7.48611,0.833333,-10.1528,2.34722c-3.16667,1.79167,-4.73611,5.11111,-4.73611,9.83333c0,5.72222,2.56944,8.375,4.73611,9.61111c2.66667,1.54167,6.08333,2.33333,10.1528,2.33333l6.68056,0l0,60.5833c0,3.84722,0.361111,7.40278,1.125,10.6667c0.777778,3.41667,2.13889,6.44444,4.13889,8.95833c2.02778,2.58333,4.79167,4.61111,8.26389,6.05556c3.34722,1.36111,7.70833,2.02778,12.9167,2.02778l12.4444,0c4.05556,0,7.48611,-0.75,10.1528,-2.30556c2.13889,-1.23611,4.73611,-3.90278,4.73611,-9.625c0,-4.69444,-1.58333,-8.02778,-4.73611,-9.84722c-2.66667,-1.51389,-6.09722,-2.33333,-10.1528,-2.33333l-11.4028,0c-1.91667,0,-2.63889,-0.263889,-2.875,-0.333333c-0.194444,-0.472222,-0.486111,-1.43056,-0.486111,-3.20833L22842.3,21181l20.3472,0c4.09722,0,7.51389,-0.791667,10.1944,-2.33333c2.11111,-1.25,4.72222,-3.88889,4.72222,-9.61111C22877.6,21164.3,22876,21161,22872.8,21159.2z" fill="#8C8C8C" />
+    <path d="M22755.4,21156.8l-16.5417,0c-4.05556,0,-7.47222,0.819444,-10.1528,2.34722c-3.13889,1.79167,-4.73611,5.11111,-4.73611,9.83333c0,5.72222,2.61111,8.38889,4.73611,9.59722c2.68056,1.56944,6.09722,2.33333,10.1528,2.33333l7.55556,0l0,74.4722c0,4.06944,0.791667,7.48611,2.31944,10.1389c1.81944,3.15278,5.09722,4.73611,9.83333,4.73611c5.70833,0,8.38889,-2.59722,9.61111,-4.73611c1.54167,-2.65278,2.33333,-6.08333,2.33333,-10.1389L22770.5,21171.9c0,-5.36111,-1.16667,-9.11111,-3.55556,-11.5278C22764.5,21158,22760.8,21156.8,22755.4,21156.8z" fill="#8C8C8C" />
+    <path d="M22702.1,21159.2c-2.68056,-1.54167,-6.11111,-2.34722,-10.1667,-2.34722l-8.38889,0c-3.47222,0,-6.91667,0.875,-10.1944,2.59722c-3.13889,1.65278,-6.01389,3.76389,-8.55556,6.29167l-8.94444,8.38889l0,-3.43056c0,-4.04167,-0.763889,-7.47222,-2.33333,-10.125c-1.77778,-3.16667,-5.11111,-4.72222,-9.81944,-4.72222c-5.69444,0,-8.38889,2.55556,-9.625,4.72222c-1.52778,2.65278,-2.31944,6.08333,-2.31944,10.125l0,66.6806c-6.59722,4.06944,-10.9861,11.3333,-10.9861,19.6111c0,12.7361,10.3472,23.0694,23.0278,23.0694c12.7222,0,23.0556,-10.3333,23.0556,-23.0694c0,-8.27778,-4.40278,-15.5417,-11,-19.6111l0,-30.6944l24.1389,-21.7222c1.38889,-1.25,2.76389,-2.27778,4.125,-3.01389c1.16667,-0.625,2.41667,-0.930556,3.80556,-0.930556l4,0c4.05556,0,7.48611,-0.777778,10.1667,-2.34722c2.15278,-1.22222,4.70833,-3.875,4.70833,-9.59722C22706.9,21164.3,22705.3,21161,22702.1,21159.2zM22643.8,21265.3c-4.61111,0,-8.375,-3.76389,-8.375,-8.38889c0,-4.625,3.76389,-8.38889,8.375,-8.38889c4.625,0,8.38889,3.76389,8.38889,8.38889C22652.2,21261.6,22648.4,21265.3,22643.8,21265.3z" fill="#8C8C8C" />
+    <path d="M22608.9,21110.3c-2.68056,-1.54167,-6.11111,-2.31944,-10.1528,-2.31944l-8.19444,0c-2.77778,0,-5.40278,0.0555556,-7.80556,0.222222c-2.44444,0.125,-4.79167,0.486111,-7.02778,0.972222c-2.33333,0.569444,-4.66667,1.51389,-6.88889,2.80556c-2.19444,1.29167,-4.43056,3.08333,-6.66667,5.30556c-4.63889,4.36111,-7.69444,9.11111,-9.05556,14.125c-1.30556,4.83333,-1.98611,10.2083,-1.98611,15.9861l0,9.41667l-6.70833,0c-4.05556,0,-7.48611,0.819444,-10.1389,2.34722c-3.15278,1.80556,-4.75,5.125,-4.75,9.83333c0,5.72222,2.56944,8.38889,4.73611,9.625c2.65278,1.54167,6.08333,2.30556,10.1389,2.30556l6.70833,0l0,74.4722c0,4.06944,0.791667,7.48611,2.31944,10.1389c1.80556,3.15278,5.09722,4.73611,9.83333,4.73611c5.70833,0,8.375,-2.59722,9.61111,-4.73611c1.54167,-2.65278,2.33333,-6.08333,2.33333,-10.1389l0,-74.4444l12.7778,0c4.06944,0,7.5,-0.791667,10.1667,-2.33333c2.15278,-1.25,4.72222,-3.88889,4.72222,-9.61111c0,-4.72222,-1.58333,-8.04167,-4.72222,-9.83333c-2.625,-1.54167,-6.05556,-2.36111,-10.125,-2.36111l-12.7778,0l0,-9.41667c0,-3.02778,0.263889,-5.69444,0.777778,-7.93056c0.444444,-1.95833,1.43056,-3.625,3.02778,-5.09722l0.0277778,-0.0555556l0.0277778,-0.0277778c1.13889,-1.13889,2.44444,-1.75,4.02778,-1.88889c2.08333,-0.208333,4.70833,-0.305556,7.83333,-0.305556l7.77778,0c4.04167,0,7.48611,-0.805556,10.1528,-2.33333c2.13889,-1.22222,4.70833,-3.90278,4.70833,-9.625C22613.6,21115.4,22612,21112.1,22608.9,21110.3z" fill="#8C8C8C" />
+    <path d="M23331,21160.6c-1.23611,-2.16667,-3.91667,-4.72222,-9.625,-4.72222c-4.70833,0,-8.02778,1.56944,-9.81944,4.72222c-1.08333,1.84722,-1.76389,4.06944,-2.11111,6.625l-0.291667,-0.291667c-3,-3.27778,-6.47222,-5.83333,-10.375,-7.48611c-3.84722,-1.65278,-7.81944,-2.54167,-11.7917,-2.54167l-9.84722,0c-3.45833,0,-6.47222,0.208333,-8.88889,0.569444c-2.52778,0.361111,-4.88889,1.02778,-7.08333,1.94444c-2.19444,0.916667,-4.34722,2.08333,-6.375,3.52778c-1.93056,1.34722,-4.20833,3.13889,-6.75,5.23611c-2.61111,2.16667,-4.75,4.19444,-6.43056,6.02778c-1.76389,1.95833,-3.19444,4.06944,-4.25,6.31944c-0.958333,2.22222,-1.69444,4.68056,-2.04167,7.26389c-0.361111,2.47222,-0.569444,5.43056,-0.569444,8.76389l0,33.1389c0,3.33333,0.208333,6.26389,0.569444,8.76389c0.347222,2.61111,1.08333,5.01389,2.04167,7.23611c1.02778,2.27778,2.48611,4.41667,4.25,6.34722c1.65278,1.79167,3.80556,3.80556,6.43056,6.01389c2.58333,2.125,4.86111,3.88889,6.75,5.26389c2.02778,1.43056,4.15278,2.61111,6.375,3.52778c2.19444,0.902778,4.56944,1.55556,7.08333,1.94444c2.41667,0.361111,5.40278,0.541667,8.88889,0.541667l9.84722,0c4.13889,0,8.20833,-0.916667,12.0833,-2.76389c3.38889,-1.58333,6.83333,-4.04167,10.1389,-7.26389l0,19.9167c0,2.5,-0.347222,4.63889,-1,6.45833c-0.597222,1.65278,-2.20833,3.58333,-4.77778,5.63889c-2.13889,1.76389,-4.29167,3.01389,-6.34722,3.66667c-2.08333,0.680556,-4.73611,1.02778,-7.81944,1.02778l-30.5972,0c-4.06944,0,-7.47222,0.763889,-10.1667,2.30556c-2.11111,1.22222,-4.72222,3.91667,-4.72222,9.61111c0,4.73611,1.59722,8.04167,4.72222,9.86111c2.69444,1.51389,6.09722,2.31944,10.1667,2.31944l32.3056,0c3.43056,0,6.43056,-0.208333,8.86111,-0.569444c2.48611,-0.361111,4.875,-1.01389,7.125,-1.94444c2.125,-0.888889,4.30556,-2.08333,6.31944,-3.52778c1.98611,-1.40278,4.23611,-3.15278,6.76389,-5.26389c2.56944,-2.125,4.76389,-4.15278,6.43056,-5.98611c1.77778,-1.95833,3.18056,-4.08333,4.22222,-6.33333c0.986111,-2.25,1.70833,-4.69444,2.05556,-7.26389c0.347222,-2.52778,0.569444,-5.45833,0.569444,-8.76389l0,-109.694C23333.3,21166.6,23332.6,21163.2,23331,21160.6zM23309.2,21222.5c0,2.61111,-0.861111,4.86111,-2.61111,6.80556c-2.08333,2.38889,-5.47222,5.59722,-9.94444,9.52778l-0.0277778,0.0416667l-0.0277778,0.0555556c-1.93056,1.80556,-4.04167,3.29167,-6.29167,4.51389c-2.05556,1.13889,-4.51389,1.68056,-7.30556,1.68056L23278.8,21245.1c-3.08333,0,-5.69444,-0.291667,-7.81944,-1c-2.05556,-0.680556,-4.18056,-1.90278,-6.29167,-3.66667c-3.20833,-2.58333,-4.375,-4.47222,-4.80556,-5.61111c-0.680556,-1.81944,-1,-3.95833,-1,-6.45833l0,-30.6389c0,-2.5,0.319444,-4.66667,1,-6.48611c0.402778,-1.13889,1.56944,-3.01389,4.80556,-5.59722c2.11111,-1.76389,4.23611,-3,6.29167,-3.68056c2.125,-0.680556,4.75,-1,7.81944,-1l4.18056,0c2.94444,0,5.38889,0.513889,7.30556,1.56944c2.11111,1.13889,4.27778,2.65278,6.34722,4.5c4.47222,4.06944,7.83333,7.34722,9.94444,9.72222c1.77778,2.02778,2.61111,4.22222,2.61111,6.83333L23309.2,21222.5z" fill="#8C8C8C" />
+    <path d="M23053.5,21094.4c-12.6944,0,-23.0556,10.3472,-23.0556,23.0556c0,12.7222,10.3611,23.0556,23.0556,23.0556s23.0556,-10.3333,23.0556,-23.0556C23076.6,21104.8,23066.2,21094.4,23053.5,21094.4zM23053.5,21125.9c-4.61111,0,-8.38889,-3.75,-8.38889,-8.375s3.76389,-8.375,8.38889,-8.375s8.38889,3.75,8.38889,8.375C23061.9,21122.1,23058.1,21125.9,23053.5,21125.9z" fill="#8C8C8C" />
+    <path d="M23201.9,21237.1l-1.48611,-47.4861c-0.152778,-2.47222,-0.291667,-4.69444,-0.430556,-6.79167c-0.138889,-2.25,-0.513889,-4.47222,-1.13889,-6.61111c-0.625,-2.19444,-1.52778,-4.29167,-2.75,-6.29167c-1.29167,-2.02778,-3,-4.01389,-5.13889,-5.83333c-3.125,-2.66667,-6.15278,-4.63889,-8.97222,-5.77778c-2.875,-1.16667,-6.40278,-1.76389,-10.4722,-1.76389l-14.0556,0c-3.59722,0,-6.95833,0.805556,-9.94444,2.27778c-2.73611,1.36111,-5.41667,2.81944,-7.94444,4.375l-0.0416667,0.0277778l-0.0416667,0.0416667l-11.625,7.70833l0,-0.569444c0,-4.04167,-0.791667,-7.48611,-2.33333,-10.1806c-1.79167,-3.13889,-5.09722,-4.70833,-9.81944,-4.70833c-5.70833,0,-8.38889,2.56944,-9.625,4.70833c-1.51389,2.69444,-2.33333,6.08333,-2.33333,10.1806l0,84.7083c0,4.09722,0.819444,7.48611,2.33333,10.1944c1.25,2.125,3.91667,4.69444,9.625,4.69444c4.72222,0,8.02778,-1.58333,9.81944,-4.69444c1.54167,-2.70833,2.33333,-6.09722,2.33333,-10.1944L23127.9,21199l27.125,-16.875c0.555556,-0.333333,1.13889,-0.666667,1.68056,-0.875c0.430556,-0.222222,0.972222,-0.347222,1.59722,-0.430556c0.680556,-0.166667,1.625,-0.222222,2.70833,-0.222222l5.02778,0c2.61111,0,4.63889,0.291667,6.04167,0.819444c1.13889,0.402778,1.98611,1.05556,2.5,1.98611c0.694444,1.08333,1.11111,2.5,1.36111,4.20833c0.277778,1.93056,0.472222,4.29167,0.625,7l1.33333,43.0139c-6.34722,4.125,-10.5833,11.2639,-10.5833,19.3611c0,12.7361,10.3611,23.0694,23.0556,23.0694c12.7222,0,23.0556,-10.3333,23.0556,-23.0694C23213.4,21248.5,23208.8,21241,23201.9,21237.1zM23190.3,21265.3c-4.63889,0,-8.36111,-3.76389,-8.36111,-8.38889c0,-4.625,3.72222,-8.38889,8.36111,-8.38889c4.625,0,8.38889,3.76389,8.38889,8.38889C23198.7,21261.6,23195,21265.3,23190.3,21265.3z" fill="#8C8C8C" />
+    <path d="M23054.4,21156.8l-16.5694,0c-4.06944,0,-7.48611,0.819444,-10.1528,2.34722c-3.13889,1.79167,-4.73611,5.11111,-4.73611,9.83333c0,5.72222,2.58333,8.38889,4.73611,9.59722c2.66667,1.56944,6.08333,2.33333,10.1528,2.33333l7.56944,0l0,74.4722c0,4.06944,0.763889,7.48611,2.33333,10.1389c1.76389,3.15278,5.06944,4.73611,9.81944,4.73611c5.69444,0,8.38889,-2.59722,9.59722,-4.73611c1.54167,-2.65278,2.36111,-6.08333,2.36111,-10.1389L23069.5,21171.9c0,-5.36111,-1.18056,-9.11111,-3.59722,-11.5278C23063.5,21158,23059.7,21156.8,23054.4,21156.8z" fill="#8C8C8C" />
+   </g>
+  </g>
+ </g>
+ <g partID="1230">
+  <g transform="translate(2888.89,18944.4)">
+   <g id="breadboard" >
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" x="88.8889"  y="311.111">&#x426;&#x432;&#x435;&#x442;&#x430; &#x43f;&#x440;&#x43e;&#x432;&#x43e;&#x434;&#x43e;&#x432; &#xb7; &#x43e;&#x434;&#x438;&#x43d;&#x430;&#x43a;&#x43e;&#x432;&#x44b;&#x435; &#x434;&#x43b;&#x44f; Nano &#x438; ESP32</text>
+    <line stroke="#c62828" stroke-linecap="round" stroke-width="88.8889" x1="88.8889" x2="422.222"  y1="666.667" y2="666.667"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="588.889"  y="733.333">VBAT &#xb7; &#x43f;&#x43b;&#x44e;&#x441; &#x431;&#x430;&#x442;&#x430;&#x440;&#x435;&#x438;</text>
+    <line stroke="#ef6c00" stroke-linecap="round" stroke-width="88.8889" x1="5116.67" x2="5450"  y1="666.667" y2="666.667"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="5616.67"  y="733.333">5V &#xb7; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x435; 5 &#x412;</text>
+    <line stroke="#ec407a" stroke-linecap="round" stroke-width="88.8889" x1="10144.4" x2="10477.8"  y1="666.667" y2="666.667"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="10644.4"  y="733.333">3V3 &#xb7; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x435; 3,3 &#x412;</text>
+    <line stroke="#546e7a" stroke-linecap="round" stroke-width="88.8889" x1="15172.2" x2="15505.6"  y1="666.667" y2="666.667"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="15672.2"  y="733.333">VMOT &#xb7; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x435; L298N</text>
+    <line stroke="#202124" stroke-linecap="round" stroke-width="88.8889" x1="88.8889" x2="422.222"  y1="1044.44" y2="1044.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="588.889"  y="1111.11">GND &#xb7; &#x43e;&#x431;&#x449;&#x438;&#x439; &#x43f;&#x440;&#x43e;&#x432;&#x43e;&#x434;</text>
+    <line stroke="#795548" stroke-linecap="round" stroke-width="88.8889" x1="5116.67" x2="5450"  y1="1044.44" y2="1044.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="5616.67"  y="1111.11">&#x41c;&#x43e;&#x442;&#x43e;&#x440;&#x44b; &#xb7; OUT1&#x2013;OUT4</text>
+    <line stroke="#b08b00" stroke-linecap="round" stroke-width="88.8889" x1="10144.4" x2="10477.8"  y1="1044.44" y2="1044.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="10644.4"  y="1111.11">PWM &#xb7; IN1&#x2013;IN4</text>
+    <line stroke="#228833" stroke-linecap="round" stroke-width="88.8889" x1="15172.2" x2="15505.6"  y1="1044.44" y2="1044.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="15672.2"  y="1111.11">&#x42d;&#x43d;&#x43a;&#x43e;&#x434;&#x435;&#x440;&#x44b; &#xb7; D0 / DO</text>
+    <line stroke="#0077bb" stroke-linecap="round" stroke-width="88.8889" x1="88.8889" x2="422.222"  y1="1422.22" y2="1422.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="588.889"  y="1488.89">&#x414;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x43c;&#x435;&#x440; &#xb7; Trig / Echo</text>
+    <line stroke="#7b2cbf" stroke-linecap="round" stroke-width="88.8889" x1="5116.67" x2="5450"  y1="1422.22" y2="1422.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="5616.67"  y="1488.89">I2C &#xb7; SCL / SDA</text>
+    <line stroke="#b52ca4" stroke-linecap="round" stroke-width="88.8889" x1="10144.4" x2="10477.8"  y1="1422.22" y2="1422.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="10644.4"  y="1488.89">LED &#xb7; &#x43f;&#x43e;&#x432;&#x43e;&#x440;&#x43e;&#x442;&#x43d;&#x438;&#x43a;&#x438;</text>
+    <line stroke="#008577" stroke-linecap="round" stroke-width="88.8889" x1="15172.2" x2="15505.6"  y1="1422.22" y2="1422.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" x="15672.2"  y="1488.89">ADC &#xb7; &#x438;&#x437;&#x43c;&#x435;&#x440;&#x435;&#x43d;&#x438;&#x435; &#x431;&#x430;&#x442;&#x430;&#x440;&#x435;&#x438;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" x="88.8889"  y="1811.11">&#x426;&#x432;&#x435;&#x442; &#x43e;&#x431;&#x43e;&#x437;&#x43d;&#x430;&#x447;&#x430;&#x435;&#x442; &#x43d;&#x430;&#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x435;; &#x43c;&#x430;&#x440;&#x43a;&#x438;&#x440;&#x43e;&#x432;&#x43a;&#x430; &#x43a;&#x43e;&#x43d;&#x442;&#x430;&#x43a;&#x442;&#x43e;&#x432; &#x43e;&#x43f;&#x440;&#x435;&#x434;&#x435;&#x43b;&#x44f;&#x435;&#x442; &#x43f;&#x43e;&#x434;&#x43a;&#x43b;&#x44e;&#x447;&#x435;&#x43d;&#x438;&#x435;. &#x41b;&#x435;&#x433;&#x435;&#x43d;&#x434;&#x430; &#x432;&#x43a;&#x43b;&#x44e;&#x447;&#x430;&#x435;&#x442; &#x442;&#x438;&#x43f;&#x44b; &#x438;&#x437; &#x43e;&#x431;&#x435;&#x438;&#x445; &#x441;&#x445;&#x435;&#x43c;.</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1220">
+  <g transform="translate(2888.89,16666.7)">
+   <g id="breadboard" >
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="300">* DC/DC &#x43c;&#x43e;&#x442;&#x43e;&#x440;&#x44b;: &#x43f;&#x43e;&#x434;&#x431;&#x435;&#x440;&#x438; &#x43d;&#x430;&#x43f;&#x440;&#x44f;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x438; &#x442;&#x43e;&#x43a; &#x43f;&#x43e; &#x441;&#x432;&#x43e;&#x438;&#x43c; TT. &#x41a;&#x43b;&#x435;&#x43c;&#x43c;&#x430; +12V / VS &#x43d;&#x435; &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442; &#x438;&#x43c;&#x435;&#x43d;&#x43d;&#x43e; 12 &#x412;.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="600">* &#x41d;&#x430; ESP32 &#x43f;&#x43e;&#x434;&#x430;&#x432;&#x430;&#x439; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x441;&#x442;&#x430;&#x431;&#x438;&#x43b;&#x438;&#x437;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x43d;&#x44b;&#x435; 5 &#x412; &#x43d;&#x430; &#x43f;&#x43e;&#x434;&#x442;&#x432;&#x435;&#x440;&#x436;&#x434;&#x451;&#x43d;&#x43d;&#x44b;&#x439; &#x432;&#x445;&#x43e;&#x434; 5V / VIN. 3S &#x43d;&#x430;&#x43f;&#x440;&#x44f;&#x43c;&#x443;&#x44e; &#x43d;&#x435;&#x43b;&#x44c;&#x437;&#x44f;.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="900">* &#x41f;&#x440;&#x438; USB-&#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x438; ESP32 &#x43e;&#x442;&#x441;&#x43e;&#x435;&#x434;&#x438;&#x43d;&#x438; &#x432;&#x43d;&#x435;&#x448;&#x43d;&#x438;&#x439; &#x438;&#x441;&#x442;&#x43e;&#x447;&#x43d;&#x438;&#x43a; &#x43e;&#x442; &#x435;&#x433;&#x43e; 5V / VIN. GND &#x432;&#x441;&#x435;&#x445; &#x443;&#x437;&#x43b;&#x43e;&#x432; &#x441;&#x43e;&#x435;&#x434;&#x438;&#x43d;&#x451;&#x43d;.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="1200">* LM393: &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x435; 3,3 &#x412; &#x442;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x434;&#x43b;&#x44f; &#x441;&#x43e;&#x432;&#x43c;&#x435;&#x441;&#x442;&#x438;&#x43c;&#x43e;&#x433;&#x43e; &#x43c;&#x43e;&#x434;&#x443;&#x43b;&#x44f;; &#x43c;&#x43e;&#x434;&#x443;&#x43b;&#x44c; 5 &#x412; &#x442;&#x440;&#x435;&#x431;&#x443;&#x435;&#x442; &#x441;&#x43e;&#x433;&#x43b;&#x430;&#x441;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x44f; &#x443;&#x440;&#x43e;&#x432;&#x43d;&#x435;&#x439;.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="1500">* GPIO2 / GPIO5 / GPIO12 / GPIO15 &#x437;&#x430;&#x434;&#x430;&#x44e;&#x442; &#x440;&#x435;&#x436;&#x438;&#x43c; &#x437;&#x430;&#x43f;&#x443;&#x441;&#x43a;&#x430;; &#x43d;&#x435; &#x434;&#x43e;&#x43f;&#x443;&#x441;&#x43a;&#x430;&#x439; &#x432;&#x43d;&#x435;&#x448;&#x43d;&#x435;&#x439; &#x43f;&#x43e;&#x434;&#x442;&#x44f;&#x436;&#x43a;&#x438; GPIO12 &#x43a; 5 &#x412;.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="1800">NC = &#x43d;&#x435; &#x43f;&#x43e;&#x434;&#x43a;&#x43b;&#x44e;&#x447;&#x435;&#x43d;&#x43e; &#xb7; &#x41f;&#x43e;&#x432;&#x43e;&#x440;&#x43e;&#x442;&#x43d;&#x438;&#x43a;&#x438; &#x438; OLED &#x437;&#x434;&#x435;&#x441;&#x44c; &#x43e;&#x442;&#x43a;&#x43b;&#x44e;&#x447;&#x435;&#x43d;&#x44b; &#xb7; &#x424;&#x430;&#x439;&#x43b; &#x441;&#x445;&#x435;&#x43c;&#x44b; &#x43d;&#x435; &#x43c;&#x435;&#x43d;&#x44f;&#x435;&#x442; &#x43f;&#x440;&#x43e;&#x448;&#x438;&#x432;&#x43a;&#x443;.</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1210">
+  <g transform="translate(20000,1111.11)">
+   <g id="breadboard" >
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="300">&#x426;&#x432;&#x435;&#x442;&#x430; &#x2014; &#x43f;&#x43e; &#x43d;&#x430;&#x437;&#x43d;&#x430;&#x447;&#x435;&#x43d;&#x438;&#x44e;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="600">&#x421;&#x43c;. &#x446;&#x432;&#x435;&#x442;&#x43d;&#x443;&#x44e; &#x43b;&#x435;&#x433;&#x435;&#x43d;&#x434;&#x443; &#x432;&#x43d;&#x438;&#x437;&#x443;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="900">GND &#x2014; &#x43e;&#x431;&#x449;&#x438;&#x439; &#x43f;&#x440;&#x43e;&#x432;&#x43e;&#x434;</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1200">
+  <g transform="translate(10444.4,3666.67)">
+   <g id="breadboard" >
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="300">&#x41f;&#x440;&#x43e;&#x448;&#x438;&#x432;&#x43a;&#x430;: OPENBOT DIY_ESP32 &#xb7; HAS_INDICATORS 0 (&#x43a;&#x43e;&#x43d;&#x444;&#x43b;&#x438;&#x43a;&#x442; &#x441; &#x434;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x43c;&#x435;&#x440;&#x43e;&#x43c;)</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="600">OLED &#x43d;&#x435; &#x43f;&#x43e;&#x434;&#x43a;&#x43b;&#x44e;&#x447;&#x451;&#x43d;: GPIO22 &#x437;&#x430;&#x43d;&#x44f;&#x442; &#x43f;&#x440;&#x430;&#x432;&#x44b;&#x43c; LM393. HAS_OLED 0.</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="900">R1 / R2: &#x431;&#x430;&#x442;&#x430;&#x440;&#x435;&#x44f; &#xf7; 4 &#x2192; GPIO4 &#xb7; R3 / R4: Echo &#xd7; 2/3 &#x2192; GPIO18</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="1200">R5 / R6: &#x43f;&#x43e;&#x434;&#x442;&#x44f;&#x436;&#x43a;&#x430; D0 / DO &#x43a; 3V3; &#x443; GPIO35 &#x43d;&#x435;&#x442; &#x432;&#x43d;&#x443;&#x442;&#x440;&#x435;&#x43d;&#x43d;&#x435;&#x439; &#x43f;&#x43e;&#x434;&#x442;&#x44f;&#x436;&#x43a;&#x438;.</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1190">
+  <g id="breadboard" >
+   <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="255.556" font-weight="bold" text-anchor="start" x="88.8889"  y="300">OpenBot DIY &#xb7; ESP32 DevKit &#xb7; ESP-WROOM-32, 38 pin &#xb7; &#x441;&#x445;&#x435;&#x43c;&#x430; Fritzing</text>
+   <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="start" x="88.8889"  y="600">GPIO &#x2014; &#x43d;&#x43e;&#x43c;&#x435;&#x440;&#x430; &#x441;&#x438;&#x433;&#x43d;&#x430;&#x43b;&#x43e;&#x432;, &#x43d;&#x435; &#x43f;&#x43e;&#x43b;&#x43e;&#x436;&#x435;&#x43d;&#x438;&#x435; &#x43a;&#x43e;&#x43d;&#x442;&#x430;&#x43a;&#x442;&#x43e;&#x432;. &#x41d;&#x430; &#x43f;&#x43b;&#x430;&#x442;&#x430;&#x445; &#x43d;&#x430;&#x445;&#x43e;&#x434;&#x438; &#x432;&#x44b;&#x432;&#x43e;&#x434;&#x44b; &#x43f;&#x43e; &#x43c;&#x430;&#x440;&#x43a;&#x438;&#x440;&#x43e;&#x432;&#x43a;&#x435;.</text>
+  </g>
+ </g>
+ <g partID="1180">
+  <g transform="translate(15222.2,8666.67)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="1555.56"/>
+    <rect fill="#fff" height="488.889" stroke="#333" stroke-width="22.2222" width="222.222" x="444.444"  y="533.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="677.778">R6</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="944.444">10 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="550"  y="-5.55556"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="1555.56" y2="1333.33"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="550"  y="1550"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1170">
+  <g transform="translate(15222.2,5888.89)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="1555.56"/>
+    <rect fill="#fff" height="488.889" stroke="#333" stroke-width="22.2222" width="222.222" x="444.444"  y="533.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="677.778">R5</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="944.444">10 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="550"  y="-5.55556"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="1555.56" y2="1333.33"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="550"  y="1550"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1160">
+  <g transform="translate(13777.8,14133.3)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="1555.56"/>
+    <rect fill="#fff" height="488.889" stroke="#333" stroke-width="22.2222" width="222.222" x="444.444"  y="533.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="677.778">R4</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="944.444">2 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="550"  y="-5.55556"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="1555.56" y2="1333.33"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="550"  y="1550"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1150">
+  <g transform="translate(14777.8,13355.6)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="0" x2="1555.56"  y1="444.444" y2="444.444"/>
+    <rect fill="#fff" height="222.222" stroke="#333" stroke-width="22.2222" width="488.889" x="533.333"  y="333.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="222.222" font-weight="bold" text-anchor="middle" x="777.778"  y="233.333">R3 &#xb7; 1 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="438.889"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1555.56" x2="1333.33"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1550"  y="438.889"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1140">
+  <g transform="translate(7888.89,10222.2)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="1555.56"/>
+    <rect fill="#fff" height="488.889" stroke="#333" stroke-width="22.2222" width="222.222" x="444.444"  y="533.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="677.778">R2</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="188.889" font-weight="normal" text-anchor="start" x="744.444"  y="944.444">10 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="550"  y="-5.55556"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="555.556" x2="555.556"  y1="1555.56" y2="1333.33"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="550"  y="1550"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1130">
+  <g transform="translate(6444.44,6888.89)">
+   <g id="breadboard" >
+    <line stroke="#333" stroke-width="22.2222" x1="0" x2="1555.56"  y1="444.444" y2="444.444"/>
+    <rect fill="#fff" height="222.222" stroke="#333" stroke-width="22.2222" width="488.889" x="533.333"  y="333.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="222.222" font-weight="bold" text-anchor="middle" x="777.778"  y="233.333">R1 &#xb7; 30 &#x43a;&#x41e;&#x43c;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="438.889"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1555.56" x2="1333.33"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1550"  y="438.889"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1120">
+  <g transform="translate(17333.3,12444.4)">
+   <g id="breadboard" >
+    <rect fill="#e5f1fd" height="1666.67" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3111.11" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1777.78"  y="477.778">HC-SR04+</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="744.444">&#x423;&#x43b;&#x44c;&#x442;&#x440;&#x430;&#x437;&#x432;&#x443;&#x43a;&#x43e;&#x432;&#x43e;&#x439; &#x434;&#x430;&#x43b;&#x44c;&#x43d;&#x43e;&#x43c;&#x435;&#x440;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1055.56">Trig / Trigger</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1355.56" y2="1355.56"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="-5.55556"  y="1350"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1411.11">Echo</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="888.889" y2="888.889"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="3550"  y="883.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="944.444">VCC &#xb7; 5 &#x412;</text>
+    <line id="connector3pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="1777.78" y2="1777.78"/>
+    <g fill="none" height="11.1111" id="connector3terminal" stroke="none" width="11.1111" x="3550"  y="1772.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="1833.33">GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1110">
+  <g transform="translate(17333.3,9333.33)">
+   <g id="breadboard" >
+    <rect fill="#e5f5ec" height="1777.78" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3111.11" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1777.78"  y="477.778">LM393 &#xb7; &#x43f;&#x440;&#x430;&#x432;&#x44b;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="744.444">&#x414;&#x430;&#x442;&#x447;&#x438;&#x43a; &#x447;&#x430;&#x441;&#x442;&#x43e;&#x442;&#x44b; &#x432;&#x440;&#x430;&#x449;&#x435;&#x43d;&#x438;&#x44f;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="1700">&#x422;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x43c;&#x43e;&#x434;&#x443;&#x43b;&#x44c;, &#x440;&#x430;&#x431;&#x43e;&#x442;&#x430;&#x44e;&#x449;&#x438;&#x439; &#x43e;&#x442; 3,3 &#x412;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1055.56">D0 / DO</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1355.56" y2="1355.56"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="-5.55556"  y="1350"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1411.11">A0 / AO &#xb7; NC</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="888.889" y2="888.889"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="3550"  y="883.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="944.444">VCC &#xb7; 3,3 &#x412; *</text>
+    <line id="connector3pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="1777.78" y2="1777.78"/>
+    <g fill="none" height="11.1111" id="connector3terminal" stroke="none" width="11.1111" x="3550"  y="1772.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="1833.33">GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1100">
+  <g transform="translate(17333.3,6444.44)">
+   <g id="breadboard" >
+    <rect fill="#e5f5ec" height="1777.78" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3111.11" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1777.78"  y="477.778">LM393 &#xb7; &#x43b;&#x435;&#x432;&#x44b;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="744.444">&#x414;&#x430;&#x442;&#x447;&#x438;&#x43a; &#x447;&#x430;&#x441;&#x442;&#x43e;&#x442;&#x44b; &#x432;&#x440;&#x430;&#x449;&#x435;&#x43d;&#x438;&#x44f;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="1700">&#x422;&#x43e;&#x43b;&#x44c;&#x43a;&#x43e; &#x43c;&#x43e;&#x434;&#x443;&#x43b;&#x44c;, &#x440;&#x430;&#x431;&#x43e;&#x442;&#x430;&#x44e;&#x449;&#x438;&#x439; &#x43e;&#x442; 3,3 &#x412;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1055.56">D0 / DO</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1355.56" y2="1355.56"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="-5.55556"  y="1350"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1411.11">A0 / AO &#xb7; NC</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="888.889" y2="888.889"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="3550"  y="883.333"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="944.444">VCC &#xb7; 3,3 &#x412; *</text>
+    <line id="connector3pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="1777.78" y2="1777.78"/>
+    <g fill="none" height="11.1111" id="connector3terminal" stroke="none" width="11.1111" x="3550"  y="1772.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="1833.33">GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1090">
+  <g transform="translate(3444.44,4111.11)">
+   <g id="breadboard" >
+    <rect fill="#fff1dc" height="1777.78" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1944.44"  y="477.778">DC/DC &#xb7; &#x43c;&#x43e;&#x442;&#x43e;&#x440;&#x44b; *</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1944.44"  y="744.444">&#x41f;&#x43e;&#x43d;&#x438;&#x436;&#x430;&#x44e;&#x449;&#x438;&#x439; &#x43f;&#x440;&#x435;&#x43e;&#x431;&#x440;&#x430;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x44c;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1944.44"  y="1700">&#x412;&#x44b;&#x445;&#x43e;&#x434;: &#x43f;&#x43e; &#x43d;&#x43e;&#x43c;&#x438;&#x43d;&#x430;&#x43b;&#x443; TT; &#x434;&#x43b;&#x44f; 3&#x2013;6 &#x412; &#x2264; 6 &#x412;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1055.56">IN+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="3883.33"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="1055.56">OUT+</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="1944.44" x2="1944.44"  y1="2222.22" y2="2000"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="1938.89"  y="2216.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="1944.44"  y="1944.44">IN&#x2212; / OUT&#x2212; &#xb7; GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1080">
+  <g transform="translate(10666.7,1222.22)">
+   <g id="breadboard" >
+    <rect fill="#fff1dc" height="1777.78" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3111.11" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1777.78"  y="477.778">DC/DC &#xb7; &#x43b;&#x43e;&#x433;&#x438;&#x43a;&#x430;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="744.444">&#x41f;&#x43e;&#x43d;&#x438;&#x436;&#x430;&#x44e;&#x449;&#x438;&#x439; &#x43f;&#x440;&#x435;&#x43e;&#x431;&#x440;&#x430;&#x437;&#x43e;&#x432;&#x430;&#x442;&#x435;&#x43b;&#x44c;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1777.78"  y="1700">&#x412;&#x44b;&#x445;&#x43e;&#x434;: &#x441;&#x442;&#x430;&#x431;&#x438;&#x43b;&#x438;&#x437;&#x438;&#x440;&#x43e;&#x432;&#x430;&#x43d;&#x43d;&#x44b;&#x435; 5 &#x412;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1055.56">IN+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="3555.56" x2="3333.33"  y1="1000" y2="1000"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="3550"  y="994.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3266.67"  y="1055.56">OUT+</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="1777.78" x2="1777.78"  y1="2222.22" y2="2000"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="1772.22"  y="2216.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="1777.78"  y="1944.44">IN&#x2212; / OUT&#x2212; &#xb7; GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1070">
+  <g transform="translate(7555.56,1444.44)">
+   <g id="breadboard" >
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="200" font-weight="bold" text-anchor="middle" x="888.889"  y="233.333">SW1 &#xb7; &#x43f;&#x438;&#x442;&#x430;&#x43d;&#x438;&#x435;</text>
+    <path d="M0,444.444L533.333,444.444L1244.44,444.444L1777.78,444.444" fill="none" stroke="#333" stroke-width="22.2222" />
+    <circle cx="533.333" cy="444.444" fill="#fff" r="44.4444" stroke="#333" />
+    <circle cx="1244.44" cy="444.444" fill="#fff" r="44.4444" stroke="#333" />
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="177.778" font-weight="normal" text-anchor="middle" x="888.889"  y="811.111">ON</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="438.889"/>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1777.78" x2="1555.56"  y1="444.444" y2="444.444"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1772.22"  y="438.889"/>
+   </g>
+  </g>
+ </g>
+ <g partID="1060">
+  <g transform="translate(4555.56,1222.22)">
+   <g id="breadboard" >
+    <rect fill="#f3f3f3" height="1555.56" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="1555.56" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1000"  y="477.778">3 &#xd7; 18650 &#xb7; 3S</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1000"  y="744.444">&#x414;&#x43e; 12,6 &#x412;</text>
+    <rect fill="#d1e7db" height="666.667" rx="55.5556" stroke="#426077" width="244.444" x="388.889"  y="944.444"/>
+    <rect fill="#d1e7db" height="666.667" rx="55.5556" stroke="#426077" width="244.444" x="722.222"  y="944.444"/>
+    <rect fill="#d1e7db" height="666.667" rx="55.5556" stroke="#426077" width="244.444" x="1055.56"  y="944.444"/>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="2000" x2="1777.78"  y1="666.667" y2="666.667"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="1994.44"  y="661.111"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1711.11"  y="722.222">+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="2000" x2="1777.78"  y1="1555.56" y2="1555.56"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1994.44"  y="1550"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1711.11"  y="1611.11">GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1050">
+  <g transform="translate(0,14555.6)">
+   <g id="breadboard" >
+    <rect fill="#fff0b6" height="1000" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="1444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="133.333" font-weight="bold" text-anchor="middle" x="944.444"  y="477.778">M4 &#xb7; &#x43f;&#x440;&#x430;&#x432;&#x44b;&#x439; &#x437;&#x430;&#x434;&#x43d;&#x438;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="944.444"  y="744.444">&#x41c;&#x43e;&#x442;&#x43e;&#x440;-&#x440;&#x435;&#x434;&#x443;&#x43a;&#x442;&#x43e;&#x440; TT</text>
+    <circle cx="833.333" cy="1022.22" fill="#fff" r="244.444" stroke="#426077" stroke-width="22.2222" />
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="255.556" font-weight="normal" text-anchor="middle" x="833.333"  y="1111.11">M</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="666.667" y2="666.667"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="1883.33"  y="661.111"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="722.222">+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="1111.11" y2="1111.11"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1883.33"  y="1105.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="1166.67">&#x2212;</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1040">
+  <g transform="translate(0,12222.2)">
+   <g id="breadboard" >
+    <rect fill="#fff0b6" height="1000" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="1444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="133.333" font-weight="bold" text-anchor="middle" x="944.444"  y="477.778">M3 &#xb7; &#x43f;&#x440;&#x430;&#x432;&#x44b;&#x439; &#x43f;&#x435;&#x440;&#x435;&#x434;&#x43d;&#x438;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="944.444"  y="744.444">&#x41c;&#x43e;&#x442;&#x43e;&#x440;-&#x440;&#x435;&#x434;&#x443;&#x43a;&#x442;&#x43e;&#x440; TT</text>
+    <circle cx="833.333" cy="1022.22" fill="#fff" r="244.444" stroke="#426077" stroke-width="22.2222" />
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="255.556" font-weight="normal" text-anchor="middle" x="833.333"  y="1111.11">M</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="666.667" y2="666.667"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="1883.33"  y="661.111"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="722.222">+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="1111.11" y2="1111.11"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1883.33"  y="1105.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="1166.67">&#x2212;</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1030">
+  <g transform="translate(0,9888.89)">
+   <g id="breadboard" >
+    <rect fill="#fff0b6" height="1000" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="1444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="133.333" font-weight="bold" text-anchor="middle" x="944.444"  y="477.778">M2 &#xb7; &#x43b;&#x435;&#x432;&#x44b;&#x439; &#x437;&#x430;&#x434;&#x43d;&#x438;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="944.444"  y="744.444">&#x41c;&#x43e;&#x442;&#x43e;&#x440;-&#x440;&#x435;&#x434;&#x443;&#x43a;&#x442;&#x43e;&#x440; TT</text>
+    <circle cx="833.333" cy="1022.22" fill="#fff" r="244.444" stroke="#426077" stroke-width="22.2222" />
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="255.556" font-weight="normal" text-anchor="middle" x="833.333"  y="1111.11">M</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="666.667" y2="666.667"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="1883.33"  y="661.111"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="722.222">+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="1111.11" y2="1111.11"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1883.33"  y="1105.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="1166.67">&#x2212;</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1020">
+  <g transform="translate(0,7555.56)">
+   <g id="breadboard" >
+    <rect fill="#fff0b6" height="1000" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="1444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="133.333" font-weight="bold" text-anchor="middle" x="944.444"  y="477.778">M1 &#xb7; &#x43b;&#x435;&#x432;&#x44b;&#x439; &#x43f;&#x435;&#x440;&#x435;&#x434;&#x43d;&#x438;&#x439;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="944.444"  y="744.444">&#x41c;&#x43e;&#x442;&#x43e;&#x440;-&#x440;&#x435;&#x434;&#x443;&#x43a;&#x442;&#x43e;&#x440; TT</text>
+    <circle cx="833.333" cy="1022.22" fill="#fff" r="244.444" stroke="#426077" stroke-width="22.2222" />
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="255.556" font-weight="normal" text-anchor="middle" x="833.333"  y="1111.11">M</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="666.667" y2="666.667"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="1883.33"  y="661.111"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="722.222">+</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="1888.89" x2="1666.67"  y1="1111.11" y2="1111.11"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="1883.33"  y="1105.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="1600"  y="1166.67">&#x2212;</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1010">
+  <g transform="translate(4555.56,7622.22)">
+   <g id="breadboard" >
+    <rect fill="#ffe9e5" height="3444.44" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="2444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="277.778" font-weight="bold" text-anchor="middle" x="1444.44"  y="2433.33">L298N</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="122.222" font-weight="normal" text-anchor="middle" x="1444.44"  y="2700">&#x414;&#x440;&#x430;&#x439;&#x432;&#x435;&#x440; &#x434;&#x432;&#x438;&#x433;&#x430;&#x442;&#x435;&#x43b;&#x435;&#x439; &#xb7; &#x43b;&#x43e;&#x433;&#x438;&#x43a;&#x430; 5 &#x412;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1444.44"  y="3366.67">ENA / ENB: &#x43f;&#x435;&#x440;&#x435;&#x43c;&#x44b;&#x447;&#x43a;&#x438; ON</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1444.44"  y="3611.11">5V-EN: &#x43f;&#x435;&#x440;&#x435;&#x43c;&#x44b;&#x447;&#x43a;&#x430; &#x441;&#x43d;&#x44f;&#x442;&#x430;</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="600" y2="600"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="594.444"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="655.556">OUT1 (+ L)</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="955.556" y2="955.556"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="-5.55556"  y="950"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1011.11">OUT2 (&#x2212; L)</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1666.67" y2="1666.67"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="-5.55556"  y="1661.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1722.22">OUT3 (&#x2212; R)</text>
+    <line id="connector3pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="2022.22" y2="2022.22"/>
+    <g fill="none" height="11.1111" id="connector3terminal" stroke="none" width="11.1111" x="-5.55556"  y="2016.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="2077.78">OUT4 (+ R)</text>
+    <line id="connector4pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="955.556" y2="955.556"/>
+    <g fill="none" height="11.1111" id="connector4terminal" stroke="none" width="11.1111" x="2883.33"  y="950"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="1011.11">IN1</text>
+    <line id="connector5pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="1311.11" y2="1311.11"/>
+    <g fill="none" height="11.1111" id="connector5terminal" stroke="none" width="11.1111" x="2883.33"  y="1305.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="1366.67">IN2</text>
+    <line id="connector6pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="1666.67" y2="1666.67"/>
+    <g fill="none" height="11.1111" id="connector6terminal" stroke="none" width="11.1111" x="2883.33"  y="1661.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="1722.22">IN3</text>
+    <line id="connector7pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="2022.22" y2="2022.22"/>
+    <g fill="none" height="11.1111" id="connector7terminal" stroke="none" width="11.1111" x="2883.33"  y="2016.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="2077.78">IN4</text>
+    <line id="connector8pin" stroke="#555" stroke-width="22.2222" x1="444.444" x2="444.444"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector8terminal" stroke="none" width="11.1111" x="438.889"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="444.444"  y="466.667">+12V / VS</text>
+    <line id="connector9pin" stroke="#555" stroke-width="22.2222" x1="1444.44" x2="1444.44"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector9terminal" stroke="none" width="11.1111" x="1438.89"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="1444.44"  y="466.667">GND</text>
+    <line id="connector10pin" stroke="#555" stroke-width="22.2222" x1="2444.44" x2="2444.44"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector10terminal" stroke="none" width="11.1111" x="2438.89"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="2444.44"  y="466.667">5V &#xb7; &#x432;&#x445;&#x43e;&#x434;</text>
+    <line id="connector11pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="2555.56" y2="2555.56"/>
+    <g fill="none" height="11.1111" id="connector11terminal" stroke="none" width="11.1111" x="2883.33"  y="2550"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="2611.11">ENA</text>
+    <line id="connector12pin" stroke="#555" stroke-width="22.2222" x1="2888.89" x2="2666.67"  y1="2911.11" y2="2911.11"/>
+    <g fill="none" height="11.1111" id="connector12terminal" stroke="none" width="11.1111" x="2883.33"  y="2905.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="2600"  y="2966.67">ENB</text>
+   </g>
+  </g>
+ </g>
+ <g partID="1000">
+  <g transform="translate(9555.56,6555.56)">
+   <g id="breadboard" >
+    <rect fill="#e6efff" height="8555.56" rx="88.8889" stroke="#426077" stroke-width="17.7778" width="3444.44" x="222.222"  y="222.222"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="233.333" font-weight="bold" text-anchor="middle" x="1944.44"  y="1000">ESP32 DevKit</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1944.44"  y="1266.67">ESP-WROOM-32 &#xb7; 38 pin &#xb7; 3,3 &#x412;</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1944.44"  y="8477.78">&#x412;&#x441;&#x442;&#x440;&#x43e;&#x435;&#x43d;&#x43d;&#x44b;&#x439; BLE &#x2192; OpenBot</text>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="144.444" font-weight="normal" text-anchor="middle" x="1944.44"  y="8722.22">USB: &#x43f;&#x440;&#x43e;&#x448;&#x438;&#x432;&#x43a;&#x430; / &#x43e;&#x434;&#x438;&#x43d; &#x438;&#x441;&#x442;&#x43e;&#x447;&#x43d;&#x438;&#x43a; *</text>
+    <line id="connector0pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="1666.67" y2="1666.67"/>
+    <g fill="none" height="11.1111" id="connector0terminal" stroke="none" width="11.1111" x="-5.55556"  y="1661.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="1722.22">GPIO4 &#xb7; ADC</text>
+    <line id="connector1pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="2022.22" y2="2022.22"/>
+    <g fill="none" height="11.1111" id="connector1terminal" stroke="none" width="11.1111" x="-5.55556"  y="2016.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="2077.78">GPIO13 &#xb7; IN1</text>
+    <line id="connector2pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="2377.78" y2="2377.78"/>
+    <g fill="none" height="11.1111" id="connector2terminal" stroke="none" width="11.1111" x="-5.55556"  y="2372.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="2433.33">GPIO12 &#xb7; IN2 *</text>
+    <line id="connector3pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="2733.33" y2="2733.33"/>
+    <g fill="none" height="11.1111" id="connector3terminal" stroke="none" width="11.1111" x="-5.55556"  y="2727.78"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="2788.89">GPIO15 &#xb7; IN3 *</text>
+    <line id="connector4pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="3088.89" y2="3088.89"/>
+    <g fill="none" height="11.1111" id="connector4terminal" stroke="none" width="11.1111" x="-5.55556"  y="3083.33"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="3144.44">GPIO2 &#xb7; IN4 *</text>
+    <line id="connector5pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="3444.44" y2="3444.44"/>
+    <g fill="none" height="11.1111" id="connector5terminal" stroke="none" width="11.1111" x="-5.55556"  y="3438.89"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="3500">EN &#xb7; NC</text>
+    <line id="connector6pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="3800" y2="3800"/>
+    <g fill="none" height="11.1111" id="connector6terminal" stroke="none" width="11.1111" x="-5.55556"  y="3794.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="3855.56">GPIO32 &#xb7; NC</text>
+    <line id="connector7pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="4155.56" y2="4155.56"/>
+    <g fill="none" height="11.1111" id="connector7terminal" stroke="none" width="11.1111" x="-5.55556"  y="4150"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="4211.11">GPIO33 &#xb7; NC</text>
+    <line id="connector8pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="4511.11" y2="4511.11"/>
+    <g fill="none" height="11.1111" id="connector8terminal" stroke="none" width="11.1111" x="-5.55556"  y="4505.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="4566.67">GPIO25 &#xb7; NC</text>
+    <line id="connector9pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="4866.67" y2="4866.67"/>
+    <g fill="none" height="11.1111" id="connector9terminal" stroke="none" width="11.1111" x="-5.55556"  y="4861.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="4922.22">GPIO26 &#xb7; NC</text>
+    <line id="connector10pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="5222.22" y2="5222.22"/>
+    <g fill="none" height="11.1111" id="connector10terminal" stroke="none" width="11.1111" x="-5.55556"  y="5216.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="5277.78">GPIO27 &#xb7; NC</text>
+    <line id="connector11pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="5577.78" y2="5577.78"/>
+    <g fill="none" height="11.1111" id="connector11terminal" stroke="none" width="11.1111" x="-5.55556"  y="5572.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="5633.33">GPIO14 &#xb7; NC</text>
+    <line id="connector12pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="5933.33" y2="5933.33"/>
+    <g fill="none" height="11.1111" id="connector12terminal" stroke="none" width="11.1111" x="-5.55556"  y="5927.78"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="5988.89">GPIO34 &#xb7; NC</text>
+    <line id="connector13pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="6288.89" y2="6288.89"/>
+    <g fill="none" height="11.1111" id="connector13terminal" stroke="none" width="11.1111" x="-5.55556"  y="6283.33"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="6344.44">GPIO36 &#xb7; NC</text>
+    <line id="connector14pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="6644.44" y2="6644.44"/>
+    <g fill="none" height="11.1111" id="connector14terminal" stroke="none" width="11.1111" x="-5.55556"  y="6638.89"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="6700">GPIO39 &#xb7; NC</text>
+    <line id="connector15pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="7000" y2="7000"/>
+    <g fill="none" height="11.1111" id="connector15terminal" stroke="none" width="11.1111" x="-5.55556"  y="6994.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="7055.56">GND</text>
+    <line id="connector16pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="7355.56" y2="7355.56"/>
+    <g fill="none" height="11.1111" id="connector16terminal" stroke="none" width="11.1111" x="-5.55556"  y="7350"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="7411.11">GND</text>
+    <line id="connector17pin" stroke="#555" stroke-width="22.2222" x1="0" x2="222.222"  y1="7711.11" y2="7711.11"/>
+    <g fill="none" height="11.1111" id="connector17terminal" stroke="none" width="11.1111" x="-5.55556"  y="7705.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="start" x="288.889"  y="7766.67">GPIO0 &#xb7; NC</text>
+    <line id="connector18pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="1666.67" y2="1666.67"/>
+    <g fill="none" height="11.1111" id="connector18terminal" stroke="none" width="11.1111" x="3883.33"  y="1661.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="1722.22">GPIO35 &#xb7; ENC L</text>
+    <line id="connector19pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="2022.22" y2="2022.22"/>
+    <g fill="none" height="11.1111" id="connector19terminal" stroke="none" width="11.1111" x="3883.33"  y="2016.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="2077.78">GPIO22 &#xb7; ENC R</text>
+    <line id="connector20pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="2377.78" y2="2377.78"/>
+    <g fill="none" height="11.1111" id="connector20terminal" stroke="none" width="11.1111" x="3883.33"  y="2372.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="2433.33">GPIO5 &#xb7; Trig *</text>
+    <line id="connector21pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="2733.33" y2="2733.33"/>
+    <g fill="none" height="11.1111" id="connector21terminal" stroke="none" width="11.1111" x="3883.33"  y="2727.78"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="2788.89">GPIO18 &#xb7; Echo</text>
+    <line id="connector22pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="3088.89" y2="3088.89"/>
+    <g fill="none" height="11.1111" id="connector22terminal" stroke="none" width="11.1111" x="3883.33"  y="3083.33"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="3144.44">GPIO19 &#xb7; NC</text>
+    <line id="connector23pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="3444.44" y2="3444.44"/>
+    <g fill="none" height="11.1111" id="connector23terminal" stroke="none" width="11.1111" x="3883.33"  y="3438.89"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="3500">GPIO21 &#xb7; NC</text>
+    <line id="connector24pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="3800" y2="3800"/>
+    <g fill="none" height="11.1111" id="connector24terminal" stroke="none" width="11.1111" x="3883.33"  y="3794.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="3855.56">GPIO23 &#xb7; NC</text>
+    <line id="connector25pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="4155.56" y2="4155.56"/>
+    <g fill="none" height="11.1111" id="connector25terminal" stroke="none" width="11.1111" x="3883.33"  y="4150"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="4211.11">GPIO16 &#xb7; NC</text>
+    <line id="connector26pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="4511.11" y2="4511.11"/>
+    <g fill="none" height="11.1111" id="connector26terminal" stroke="none" width="11.1111" x="3883.33"  y="4505.56"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="4566.67">GPIO17 &#xb7; NC</text>
+    <line id="connector27pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="4866.67" y2="4866.67"/>
+    <g fill="none" height="11.1111" id="connector27terminal" stroke="none" width="11.1111" x="3883.33"  y="4861.11"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="4922.22">GPIO1 &#xb7; NC</text>
+    <line id="connector28pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="5222.22" y2="5222.22"/>
+    <g fill="none" height="11.1111" id="connector28terminal" stroke="none" width="11.1111" x="3883.33"  y="5216.67"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="5277.78">GPIO3 &#xb7; NC</text>
+    <line id="connector29pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="5577.78" y2="5577.78"/>
+    <g fill="none" height="11.1111" id="connector29terminal" stroke="none" width="11.1111" x="3883.33"  y="5572.22"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="5633.33">GPIO6 &#xb7; Flash / NC</text>
+    <line id="connector30pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="5933.33" y2="5933.33"/>
+    <g fill="none" height="11.1111" id="connector30terminal" stroke="none" width="11.1111" x="3883.33"  y="5927.78"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="5988.89">GPIO7 &#xb7; Flash / NC</text>
+    <line id="connector31pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="6288.89" y2="6288.89"/>
+    <g fill="none" height="11.1111" id="connector31terminal" stroke="none" width="11.1111" x="3883.33"  y="6283.33"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="6344.44">GPIO8 &#xb7; Flash / NC</text>
+    <line id="connector32pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="6644.44" y2="6644.44"/>
+    <g fill="none" height="11.1111" id="connector32terminal" stroke="none" width="11.1111" x="3883.33"  y="6638.89"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="6700">GPIO9 &#xb7; Flash / NC</text>
+    <line id="connector33pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="7000" y2="7000"/>
+    <g fill="none" height="11.1111" id="connector33terminal" stroke="none" width="11.1111" x="3883.33"  y="6994.44"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="7055.56">GPIO10 &#xb7; Flash / NC</text>
+    <line id="connector34pin" stroke="#555" stroke-width="22.2222" x1="3888.89" x2="3666.67"  y1="7355.56" y2="7355.56"/>
+    <g fill="none" height="11.1111" id="connector34terminal" stroke="none" width="11.1111" x="3883.33"  y="7350"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="end" x="3600"  y="7411.11">GPIO11 &#xb7; Flash / NC</text>
+    <line id="connector35pin" stroke="#555" stroke-width="22.2222" x1="666.667" x2="666.667"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector35terminal" stroke="none" width="11.1111" x="661.111"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="666.667"  y="466.667">5V / VIN *</text>
+    <line id="connector36pin" stroke="#555" stroke-width="22.2222" x1="1944.44" x2="1944.44"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector36terminal" stroke="none" width="11.1111" x="1938.89"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="1944.44"  y="466.667">3V3</text>
+    <line id="connector37pin" stroke="#555" stroke-width="22.2222" x1="3222.22" x2="3222.22"  y1="0" y2="222.222"/>
+    <g fill="none" height="11.1111" id="connector37terminal" stroke="none" width="11.1111" x="3216.67"  y="-5.55556"/>
+    <text fill="#172433" font-family="Noto Sans,Arial,sans-serif" font-size="166.667" font-weight="normal" text-anchor="middle" x="3222.22"  y="466.667">GND</text>
+   </g>
+  </g>
+ </g>
+ <g partID="11100">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="14333.3" x2="23000" y1="15688.9" y2="15688.9"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="14333.3" x2="23000" y1="15688.9" y2="15688.9"/>
+ </g>
+ <g partID="11090">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="14000" x2="13444.4" y1="9288.89" y2="9288.89"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="14000" x2="13444.4" y1="9288.89" y2="9288.89"/>
+ </g>
+ <g partID="11080">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="14000" x2="14000" y1="13800" y2="9288.89"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="14000" x2="14000" y1="13800" y2="9288.89"/>
+ </g>
+ <g partID="11070">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="14333.3" x2="14000" y1="13800" y2="13800"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="14333.3" x2="14000" y1="13800" y2="13800"/>
+ </g>
+ <g partID="11060">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="14333.3" x2="14333.3" y1="13800" y2="14133.3"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="14333.3" x2="14333.3" y1="13800" y2="14133.3"/>
+ </g>
+ <g partID="11050">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="14777.8" x2="14333.3" y1="13800" y2="13800"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="14777.8" x2="14333.3" y1="13800" y2="13800"/>
+ </g>
+ <g partID="11040">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="17333.3" x2="16333.3" y1="13800" y2="13800"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="17333.3" x2="16333.3" y1="13800" y2="13800"/>
+ </g>
+ <g partID="11030">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="15000" x2="17333.3" y1="13444.4" y2="13444.4"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="15000" x2="17333.3" y1="13444.4" y2="13444.4"/>
+ </g>
+ <g partID="11020">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="15000" x2="15000" y1="8933.33" y2="13444.4"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="15000" x2="15000" y1="8933.33" y2="13444.4"/>
+ </g>
+ <g partID="11010">
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="38.2222" x1="13444.4" x2="15000" y1="8933.33" y2="8933.33"/>
+  <line stroke="#0077bb" stroke-linecap="round" stroke-width="16" x1="13444.4" x2="15000" y1="8933.33" y2="8933.33"/>
+ </g>
+ <g partID="11000">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="21777.8" y1="8666.67" y2="8666.67"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="21777.8" y1="8666.67" y2="8666.67"/>
+ </g>
+ <g partID="10990">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="15777.8" y1="10222.2" y2="10333.3"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="15777.8" y1="10222.2" y2="10333.3"/>
+ </g>
+ <g partID="10980">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="17333.3" y1="10333.3" y2="10333.3"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="17333.3" y1="10333.3" y2="10333.3"/>
+ </g>
+ <g partID="10970">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="14666.7" x2="15777.8" y1="10333.3" y2="10333.3"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="14666.7" x2="15777.8" y1="10333.3" y2="10333.3"/>
+ </g>
+ <g partID="10960">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="14666.7" x2="14666.7" y1="8577.78" y2="10333.3"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="14666.7" x2="14666.7" y1="8577.78" y2="10333.3"/>
+ </g>
+ <g partID="10950">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="13444.4" x2="14666.7" y1="8577.78" y2="8577.78"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="13444.4" x2="14666.7" y1="8577.78" y2="8577.78"/>
+ </g>
+ <g partID="10940">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="21777.8" y1="5666.67" y2="5666.67"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="21777.8" y1="5666.67" y2="5666.67"/>
+ </g>
+ <g partID="10930">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="15777.8" y1="5888.89" y2="5666.67"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="15777.8" y1="5888.89" y2="5666.67"/>
+ </g>
+ <g partID="10920">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="15777.8" y1="7444.44" y2="7444.44"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="15777.8" y1="7444.44" y2="7444.44"/>
+ </g>
+ <g partID="10910">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="15777.8" x2="17333.3" y1="7444.44" y2="7444.44"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="15777.8" x2="17333.3" y1="7444.44" y2="7444.44"/>
+ </g>
+ <g partID="10900">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="14333.3" x2="15777.8" y1="7444.44" y2="7444.44"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="14333.3" x2="15777.8" y1="7444.44" y2="7444.44"/>
+ </g>
+ <g partID="10890">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="14333.3" x2="14333.3" y1="8222.22" y2="7444.44"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="14333.3" x2="14333.3" y1="8222.22" y2="7444.44"/>
+ </g>
+ <g partID="10880">
+  <line stroke="#228833" stroke-linecap="round" stroke-width="38.2222" x1="13444.4" x2="14333.3" y1="8222.22" y2="8222.22"/>
+  <line stroke="#228833" stroke-linecap="round" stroke-width="16" x1="13444.4" x2="14333.3" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10870">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3333.33" x2="4555.56" y1="9288.89" y2="9288.89"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3333.33" x2="4555.56" y1="9288.89" y2="9288.89"/>
+ </g>
+ <g partID="10860">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3333.33" x2="3333.33" y1="15666.7" y2="9288.89"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3333.33" x2="3333.33" y1="15666.7" y2="9288.89"/>
+ </g>
+ <g partID="10850">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="3333.33" y1="15666.7" y2="15666.7"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="3333.33" y1="15666.7" y2="15666.7"/>
+ </g>
+ <g partID="10840">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3000" x2="4555.56" y1="9644.44" y2="9644.44"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3000" x2="4555.56" y1="9644.44" y2="9644.44"/>
+ </g>
+ <g partID="10830">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3000" x2="3000" y1="15222.2" y2="9644.44"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3000" x2="3000" y1="15222.2" y2="9644.44"/>
+ </g>
+ <g partID="10820">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="3000" y1="15222.2" y2="15222.2"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="3000" y1="15222.2" y2="15222.2"/>
+ </g>
+ <g partID="10810">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3333.33" x2="4555.56" y1="9288.89" y2="9288.89"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3333.33" x2="4555.56" y1="9288.89" y2="9288.89"/>
+ </g>
+ <g partID="10800">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3333.33" x2="3333.33" y1="13333.3" y2="9288.89"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3333.33" x2="3333.33" y1="13333.3" y2="9288.89"/>
+ </g>
+ <g partID="10790">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="3333.33" y1="13333.3" y2="13333.3"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="3333.33" y1="13333.3" y2="13333.3"/>
+ </g>
+ <g partID="10780">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3000" x2="4555.56" y1="9644.44" y2="9644.44"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3000" x2="4555.56" y1="9644.44" y2="9644.44"/>
+ </g>
+ <g partID="10770">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="3000" x2="3000" y1="12888.9" y2="9644.44"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="3000" x2="3000" y1="12888.9" y2="9644.44"/>
+ </g>
+ <g partID="10760">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="3000" y1="12888.9" y2="12888.9"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="3000" y1="12888.9" y2="12888.9"/>
+ </g>
+ <g partID="10750">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2666.67" x2="4555.56" y1="8577.78" y2="8577.78"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2666.67" x2="4555.56" y1="8577.78" y2="8577.78"/>
+ </g>
+ <g partID="10740">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2666.67" x2="2666.67" y1="11000" y2="8577.78"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2666.67" x2="2666.67" y1="11000" y2="8577.78"/>
+ </g>
+ <g partID="10730">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="2666.67" y1="11000" y2="11000"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="2666.67" y1="11000" y2="11000"/>
+ </g>
+ <g partID="10720">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2333.33" x2="4555.56" y1="8222.22" y2="8222.22"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2333.33" x2="4555.56" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10710">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2333.33" x2="2333.33" y1="10555.6" y2="8222.22"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2333.33" x2="2333.33" y1="10555.6" y2="8222.22"/>
+ </g>
+ <g partID="10700">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="2333.33" y1="10555.6" y2="10555.6"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="2333.33" y1="10555.6" y2="10555.6"/>
+ </g>
+ <g partID="10690">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2666.67" x2="4555.56" y1="8577.78" y2="8577.78"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2666.67" x2="4555.56" y1="8577.78" y2="8577.78"/>
+ </g>
+ <g partID="10680">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2666.67" x2="2666.67" y1="8666.67" y2="8577.78"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2666.67" x2="2666.67" y1="8666.67" y2="8577.78"/>
+ </g>
+ <g partID="10670">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="2666.67" y1="8666.67" y2="8666.67"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="2666.67" y1="8666.67" y2="8666.67"/>
+ </g>
+ <g partID="10660">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="2333.33" x2="4555.56" y1="8222.22" y2="8222.22"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="2333.33" x2="4555.56" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10650">
+  <line stroke="#795548" stroke-linecap="round" stroke-width="46.2222" x1="1888.89" x2="2333.33" y1="8222.22" y2="8222.22"/>
+  <line stroke="#795548" stroke-linecap="round" stroke-width="24" x1="1888.89" x2="2333.33" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10640">
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="38.2222" x1="7444.44" x2="9555.56" y1="9644.44" y2="9644.44"/>
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="16" x1="7444.44" x2="9555.56" y1="9644.44" y2="9644.44"/>
+ </g>
+ <g partID="10630">
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="38.2222" x1="7444.44" x2="9555.56" y1="9288.89" y2="9288.89"/>
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="16" x1="7444.44" x2="9555.56" y1="9288.89" y2="9288.89"/>
+ </g>
+ <g partID="10620">
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="38.2222" x1="7444.44" x2="9555.56" y1="8933.33" y2="8933.33"/>
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="16" x1="7444.44" x2="9555.56" y1="8933.33" y2="8933.33"/>
+ </g>
+ <g partID="10610">
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="38.2222" x1="7444.44" x2="9555.56" y1="8577.78" y2="8577.78"/>
+  <line stroke="#b08b00" stroke-linecap="round" stroke-width="16" x1="7444.44" x2="9555.56" y1="8577.78" y2="8577.78"/>
+ </g>
+ <g partID="10600">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="20888.9" x2="23000" y1="14222.2" y2="14222.2"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="20888.9" x2="23000" y1="14222.2" y2="14222.2"/>
+ </g>
+ <g partID="10590">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="20888.9" x2="22333.3" y1="13333.3" y2="13333.3"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="20888.9" x2="22333.3" y1="13333.3" y2="13333.3"/>
+ </g>
+ <g partID="10580">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="20888.9" x2="23000" y1="11111.1" y2="11111.1"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="20888.9" x2="23000" y1="11111.1" y2="11111.1"/>
+ </g>
+ <g partID="10570">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="20888.9" x2="21777.8" y1="10222.2" y2="10222.2"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="20888.9" x2="21777.8" y1="10222.2" y2="10222.2"/>
+ </g>
+ <g partID="10560">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="20888.9" x2="23000" y1="8222.22" y2="8222.22"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="20888.9" x2="23000" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10550">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="20888.9" x2="21777.8" y1="7333.33" y2="7333.33"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="20888.9" x2="21777.8" y1="7333.33" y2="7333.33"/>
+ </g>
+ <g partID="10540">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="8444.44" x2="23000" y1="15688.9" y2="15688.9"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="8444.44" x2="23000" y1="15688.9" y2="15688.9"/>
+ </g>
+ <g partID="10530">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="8444.44" x2="8444.44" y1="11777.8" y2="15688.9"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="8444.44" x2="8444.44" y1="11777.8" y2="15688.9"/>
+ </g>
+ <g partID="10520">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="6000" x2="6000" y1="7622.22" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="6000" x2="6000" y1="7622.22" y2="6000"/>
+ </g>
+ <g partID="10510">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="6000" x2="6000" y1="6555.56" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="6000" x2="6000" y1="6555.56" y2="6000"/>
+ </g>
+ <g partID="10500">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="5388.89" x2="6000" y1="6555.56" y2="6555.56"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="5388.89" x2="6000" y1="6555.56" y2="6555.56"/>
+ </g>
+ <g partID="10490">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="5388.89" x2="5388.89" y1="6333.33" y2="6555.56"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="5388.89" x2="5388.89" y1="6333.33" y2="6555.56"/>
+ </g>
+ <g partID="10480">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="12444.4" x2="23000" y1="3444.44" y2="3444.44"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="12444.4" x2="23000" y1="3444.44" y2="3444.44"/>
+ </g>
+ <g partID="10470">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="8222.22" x2="6000" y1="6000" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="8222.22" x2="6000" y1="6000" y2="6000"/>
+ </g>
+ <g partID="10460">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="8222.22" x2="8222.22" y1="2777.78" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="8222.22" x2="8222.22" y1="2777.78" y2="6000"/>
+ </g>
+ <g partID="10450">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="6555.56" x2="8222.22" y1="2777.78" y2="2777.78"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="6555.56" x2="8222.22" y1="2777.78" y2="2777.78"/>
+ </g>
+ <g partID="10440">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="12777.8" x2="12777.8" y1="6555.56" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="12777.8" x2="12777.8" y1="6555.56" y2="6000"/>
+ </g>
+ <g partID="10430">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="12777.8" x2="23000" y1="6000" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="12777.8" x2="23000" y1="6000" y2="6000"/>
+ </g>
+ <g partID="10420">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="6000" x2="12777.8" y1="6000" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="6000" x2="12777.8" y1="6000" y2="6000"/>
+ </g>
+ <g partID="10410">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="11500" x2="21777.8" y1="6222.22" y2="6222.22"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="11500" x2="21777.8" y1="6222.22" y2="6222.22"/>
+ </g>
+ <g partID="10400">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="11500" x2="11500" y1="6555.56" y2="6222.22"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="11500" x2="11500" y1="6555.56" y2="6222.22"/>
+ </g>
+ <g partID="10390">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="8111.11" x2="10222.2" y1="5777.78" y2="5777.78"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="8111.11" x2="10222.2" y1="5777.78" y2="5777.78"/>
+ </g>
+ <g partID="10380">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="8111.11" x2="8111.11" y1="7555.56" y2="5777.78"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="8111.11" x2="8111.11" y1="7555.56" y2="5777.78"/>
+ </g>
+ <g partID="10370">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="7000" x2="8111.11" y1="7555.56" y2="7555.56"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="7000" x2="8111.11" y1="7555.56" y2="7555.56"/>
+ </g>
+ <g partID="10360">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="7000" x2="7000" y1="7622.22" y2="7555.56"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="7000" x2="7000" y1="7622.22" y2="7555.56"/>
+ </g>
+ <g partID="10350">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="10222.2" x2="22333.3" y1="5777.78" y2="5777.78"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="10222.2" x2="22333.3" y1="5777.78" y2="5777.78"/>
+ </g>
+ <g partID="10340">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="10222.2" x2="10222.2" y1="6555.56" y2="5777.78"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="10222.2" x2="10222.2" y1="6555.56" y2="5777.78"/>
+ </g>
+ <g partID="10330">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="14222.2" x2="22333.3" y1="2222.22" y2="2222.22"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="14222.2" x2="22333.3" y1="2222.22" y2="2222.22"/>
+ </g>
+ <g partID="10320">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="23000" x2="23000" y1="14222.2" y2="15688.9"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="23000" x2="23000" y1="14222.2" y2="15688.9"/>
+ </g>
+ <g partID="10310">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="23000" x2="23000" y1="11111.1" y2="14222.2"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="23000" x2="23000" y1="11111.1" y2="14222.2"/>
+ </g>
+ <g partID="10300">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="23000" x2="23000" y1="8222.22" y2="11111.1"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="23000" x2="23000" y1="8222.22" y2="11111.1"/>
+ </g>
+ <g partID="10290">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="23000" x2="23000" y1="6000" y2="8222.22"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="23000" x2="23000" y1="6000" y2="8222.22"/>
+ </g>
+ <g partID="10280">
+  <line stroke="#202124" stroke-linecap="round" stroke-width="46.2222" x1="23000" x2="23000" y1="3444.44" y2="6000"/>
+  <line stroke="#202124" stroke-linecap="round" stroke-width="24" x1="23000" x2="23000" y1="3444.44" y2="6000"/>
+ </g>
+ <g partID="10270">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="21777.8" x2="21777.8" y1="8666.67" y2="10222.2"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="21777.8" x2="21777.8" y1="8666.67" y2="10222.2"/>
+ </g>
+ <g partID="10260">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="21777.8" x2="21777.8" y1="7333.33" y2="8666.67"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="21777.8" x2="21777.8" y1="7333.33" y2="8666.67"/>
+ </g>
+ <g partID="10250">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="21777.8" x2="21777.8" y1="6222.22" y2="7333.33"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="21777.8" x2="21777.8" y1="6222.22" y2="7333.33"/>
+ </g>
+ <g partID="10240">
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="38.2222" x1="21777.8" x2="21777.8" y1="5666.67" y2="6222.22"/>
+  <line stroke="#ec407a" stroke-linecap="round" stroke-width="16" x1="21777.8" x2="21777.8" y1="5666.67" y2="6222.22"/>
+ </g>
+ <g partID="10230">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="22333.3" x2="22333.3" y1="5777.78" y2="13333.3"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="22333.3" x2="22333.3" y1="5777.78" y2="13333.3"/>
+ </g>
+ <g partID="10220">
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="46.2222" x1="22333.3" x2="22333.3" y1="2222.22" y2="5777.78"/>
+  <line stroke="#ef6c00" stroke-linecap="round" stroke-width="24" x1="22333.3" x2="22333.3" y1="2222.22" y2="5777.78"/>
+ </g>
+ <g partID="10210">
+  <line stroke="#008577" stroke-linecap="round" stroke-width="38.2222" x1="9000" x2="9555.56" y1="8222.22" y2="8222.22"/>
+  <line stroke="#008577" stroke-linecap="round" stroke-width="16" x1="9000" x2="9555.56" y1="8222.22" y2="8222.22"/>
+ </g>
+ <g partID="10200">
+  <line stroke="#008577" stroke-linecap="round" stroke-width="38.2222" x1="9000" x2="9000" y1="7333.33" y2="8222.22"/>
+  <line stroke="#008577" stroke-linecap="round" stroke-width="16" x1="9000" x2="9000" y1="7333.33" y2="8222.22"/>
+ </g>
+ <g partID="10190">
+  <line stroke="#008577" stroke-linecap="round" stroke-width="38.2222" x1="8444.44" x2="9000" y1="7333.33" y2="7333.33"/>
+  <line stroke="#008577" stroke-linecap="round" stroke-width="16" x1="8444.44" x2="9000" y1="7333.33" y2="7333.33"/>
+ </g>
+ <g partID="10180">
+  <line stroke="#008577" stroke-linecap="round" stroke-width="38.2222" x1="8444.44" x2="8444.44" y1="7333.33" y2="10222.2"/>
+  <line stroke="#008577" stroke-linecap="round" stroke-width="16" x1="8444.44" x2="8444.44" y1="7333.33" y2="10222.2"/>
+ </g>
+ <g partID="10170">
+  <line stroke="#008577" stroke-linecap="round" stroke-width="38.2222" x1="8000" x2="8444.44" y1="7333.33" y2="7333.33"/>
+  <line stroke="#008577" stroke-linecap="round" stroke-width="16" x1="8000" x2="8444.44" y1="7333.33" y2="7333.33"/>
+ </g>
+ <g partID="10160">
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="38.2222" x1="5000" x2="5000" y1="6666.67" y2="7622.22"/>
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="16" x1="5000" x2="5000" y1="6666.67" y2="7622.22"/>
+ </g>
+ <g partID="10150">
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="38.2222" x1="7777.78" x2="5000" y1="6666.67" y2="6666.67"/>
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="16" x1="7777.78" x2="5000" y1="6666.67" y2="6666.67"/>
+ </g>
+ <g partID="10140">
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="38.2222" x1="7777.78" x2="7777.78" y1="5111.11" y2="6666.67"/>
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="16" x1="7777.78" x2="7777.78" y1="5111.11" y2="6666.67"/>
+ </g>
+ <g partID="10130">
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="38.2222" x1="7333.33" x2="7777.78" y1="5111.11" y2="5111.11"/>
+  <line stroke="#546e7a" stroke-linecap="round" stroke-width="16" x1="7333.33" x2="7777.78" y1="5111.11" y2="5111.11"/>
+ </g>
+ <g partID="10120">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="6222.22" x2="6444.44" y1="7333.33" y2="7333.33"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="6222.22" x2="6444.44" y1="7333.33" y2="7333.33"/>
+ </g>
+ <g partID="10110">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="6222.22" x2="6222.22" y1="6777.78" y2="7333.33"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="6222.22" x2="6222.22" y1="6777.78" y2="7333.33"/>
+ </g>
+ <g partID="10100">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="8000" x2="6222.22" y1="6777.78" y2="6777.78"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="8000" x2="6222.22" y1="6777.78" y2="6777.78"/>
+ </g>
+ <g partID="10090">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="8000" x2="8000" y1="1888.89" y2="6777.78"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="8000" x2="8000" y1="1888.89" y2="6777.78"/>
+ </g>
+ <g partID="10080">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="10111.1" x2="8000" y1="1888.89" y2="1888.89"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="10111.1" x2="8000" y1="1888.89" y2="1888.89"/>
+ </g>
+ <g partID="10070">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="2888.89" x2="3444.44" y1="5111.11" y2="5111.11"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="2888.89" x2="3444.44" y1="5111.11" y2="5111.11"/>
+ </g>
+ <g partID="10060">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="2888.89" x2="2888.89" y1="3666.67" y2="5111.11"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="2888.89" x2="2888.89" y1="3666.67" y2="5111.11"/>
+ </g>
+ <g partID="10050">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="10111.1" x2="2888.89" y1="3666.67" y2="3666.67"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="10111.1" x2="2888.89" y1="3666.67" y2="3666.67"/>
+ </g>
+ <g partID="10040">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="10111.1" x2="10111.1" y1="1888.89" y2="3666.67"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="10111.1" x2="10111.1" y1="1888.89" y2="3666.67"/>
+ </g>
+ <g partID="10030">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="10111.1" x2="10666.7" y1="2222.22" y2="2222.22"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="10111.1" x2="10666.7" y1="2222.22" y2="2222.22"/>
+ </g>
+ <g partID="10020">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="10111.1" x2="10111.1" y1="1888.89" y2="2222.22"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="10111.1" x2="10111.1" y1="1888.89" y2="2222.22"/>
+ </g>
+ <g partID="10010">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="9333.33" x2="10111.1" y1="1888.89" y2="1888.89"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="9333.33" x2="10111.1" y1="1888.89" y2="1888.89"/>
+ </g>
+ <g partID="10000">
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="46.2222" x1="6555.56" x2="7555.56" y1="1888.89" y2="1888.89"/>
+  <line stroke="#c62828" stroke-linecap="round" stroke-width="24" x1="6555.56" x2="7555.56" y1="1888.89" y2="1888.89"/>
+ </g>
+</svg>

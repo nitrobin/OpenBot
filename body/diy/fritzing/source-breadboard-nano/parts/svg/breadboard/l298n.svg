@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="4.88888889in" height="5.22222222in" viewBox="0 0 440 470">
+<g id="breadboard">
+<text x="220" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="26" fill="#203040" text-anchor="middle" font-weight="bold">L298N</text>
+<rect x="10" y="60" width="420" height="400" rx="12" fill="#b33336" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="405" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="440" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="405" cy="440" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<rect x="85" y="78" width="270" height="120" rx="0" fill="#333a40" stroke="#495463" stroke-width="2"/>
+<rect x="95" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="117" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="139" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="161" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="183" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="205" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="227" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="249" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="271" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="293" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="315" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="337" y="78" width="9" height="120" rx="0" fill="#606970" stroke="#495463" stroke-width="2"/>
+<rect x="162" y="164" width="116" height="25" rx="0" fill="#c0c8ce" stroke="#495463" stroke-width="2"/>
+<rect x="10" y="145" width="45" height="130" rx="0" fill="#1680bc" stroke="#495463" stroke-width="2"/>
+<rect x="385" y="145" width="45" height="130" rx="0" fill="#1680bc" stroke="#495463" stroke-width="2"/>
+<rect x="35" y="393" width="181" height="52" rx="0" fill="#1680bc" stroke="#495463" stroke-width="2"/>
+<circle cx="102" cy="290" r="24" fill="#6e7781" stroke="#495463" stroke-width="2"/>
+<circle cx="102" cy="290" r="18" fill="#d7dade" stroke="#495463" stroke-width="2"/>
+<path d="M90 290 H114 M102 278 V302" stroke="#7b8188" stroke-width="2"/>
+<circle cx="208" cy="290" r="24" fill="#6e7781" stroke="#495463" stroke-width="2"/>
+<circle cx="208" cy="290" r="18" fill="#d7dade" stroke="#495463" stroke-width="2"/>
+<path d="M196 290 H220 M208 278 V302" stroke="#7b8188" stroke-width="2"/>
+<rect x="293" y="265" width="60" height="55" rx="0" fill="#30353a" stroke="#495463" stroke-width="2"/>
+<text x="220" y="340" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="middle" font-weight="bold">ENA / ENB: ON</text>
+<rect x="231" y="407" width="18" height="26" rx="0" fill="#151c20" stroke="#495463" stroke-width="2"/>
+<rect x="381" y="407" width="18" height="26" rx="0" fill="#151c20" stroke="#495463" stroke-width="2"/>
+<rect x="48" y="290" width="18" height="29" rx="0" fill="#161d20" stroke="#495463" stroke-width="2"/>
+<text x="40" y="284" font-family="Noto Sans,Arial,sans-serif" font-size="13" fill="#ffffff" text-anchor="start" font-weight="normal">5V-EN</text>
+<text x="220" y="225" font-family="Noto Sans,Arial,sans-serif" font-size="15" fill="#ffffff" text-anchor="middle" font-weight="normal">5V-EN: см. README</text>
+<circle id="connector0pin" cx="25" cy="180" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="24.5" y="179.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="40" y="186" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">OUT1</text>
+<circle id="connector1pin" cx="25" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="24.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="40" y="246" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">OUT2</text>
+<circle id="connector2pin" cx="415" cy="180" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="414.5" y="179.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="400" y="186" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">OUT3</text>
+<circle id="connector3pin" cx="415" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector3terminal" x="414.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="400" y="246" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">OUT4</text>
+<circle id="connector4pin" cx="270" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector4terminal" x="269.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(275 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">IN1</text></g>
+<circle id="connector5pin" cx="300" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector5terminal" x="299.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(305 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">IN2</text></g>
+<circle id="connector6pin" cx="330" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector6terminal" x="329.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(335 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">IN3</text></g>
+<circle id="connector7pin" cx="360" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector7terminal" x="359.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(365 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">IN4</text></g>
+<circle id="connector8pin" cx="190" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector8terminal" x="189.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(195 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">+12V / VS</text></g>
+<circle id="connector9pin" cx="130" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector9terminal" x="129.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(135 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">GND</text></g>
+<circle id="connector10pin" cx="70" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector10terminal" x="69.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(75 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">5V</text></g>
+<circle id="connector11pin" cx="240" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector11terminal" x="239.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(245 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">ENA</text></g>
+<circle id="connector12pin" cx="390" cy="420" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector12terminal" x="389.5" y="419.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(395 405) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">ENB</text></g>
+</g></svg>

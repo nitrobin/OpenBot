@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.33333333in" height="1.22222222in" viewBox="0 0 300 110">
+<g id="schematic">
+<text x="8" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">Цвета — по назначению</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">См. цветную легенду внизу</text>
+<text x="8" y="81" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">GND — общий провод</text>
+</g></svg>

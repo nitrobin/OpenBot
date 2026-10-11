@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.22222222in" height="3.11111111in" viewBox="0 0 290 280">
+<g id="breadboard">
+<text x="145" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="22" fill="#203040" text-anchor="middle" font-weight="bold">LM393 · левый</text>
+<rect x="10" y="60" width="270" height="210" rx="12" fill="#165c9e" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="255" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="250" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="255" cy="250" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<rect x="115" y="92" width="60" height="71" rx="0" fill="#272b30" stroke="#495463" stroke-width="2"/>
+<rect x="18" y="170" width="35" height="48" rx="0" fill="#30353a" stroke="#495463" stroke-width="2"/>
+<rect x="18" y="133" width="87" height="35" rx="0" fill="#30353a" stroke="#495463" stroke-width="2"/>
+<rect x="53" y="180" width="34" height="37" rx="0" fill="#ffffff" stroke="#ffffff" stroke-width="2"/>
+<circle cx="228" cy="111" r="24" fill="#3278b8" stroke="#495463" stroke-width="2"/>
+<rect x="210" y="106" width="36" height="8" rx="0" fill="#c9d4da" stroke="#495463" stroke-width="2"/>
+<text x="145" y="193" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">LM393</text>
+<circle id="connector0pin" cx="175" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="174.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(180 225) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">DO</text></g>
+<circle id="connector1pin" cx="240" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="239.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(245 225) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">AO · NC</text></g>
+<circle id="connector2pin" cx="45" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="44.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(50 225) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">VCC</text></g>
+<circle id="connector3pin" cx="110" cy="240" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector3terminal" x="109.5" y="239.5" width="1" height="1" fill="none" stroke="none"/>
+<g transform="translate(115 225) rotate(-90)"><text x="0" y="0" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="start" font-weight="normal">GND</text></g>
+</g></svg>

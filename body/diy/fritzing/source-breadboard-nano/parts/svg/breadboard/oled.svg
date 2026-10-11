@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.22222222in" height="2.88888889in" viewBox="0 0 290 260">
+<g id="breadboard">
+<text x="145" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="22" fill="#203040" text-anchor="middle" font-weight="bold">OLED · SSD1306</text>
+<rect x="10" y="60" width="270" height="190" rx="12" fill="#195992" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="255" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="230" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="255" cy="230" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<rect x="33" y="130" width="224" height="96" rx="0" fill="#131a24" stroke="#495463" stroke-width="2"/>
+<rect x="48" y="144" width="194" height="66" rx="0" fill="#0f1f2e" stroke="#495463" stroke-width="2"/>
+<text x="145" y="184" font-family="Noto Sans,Arial,sans-serif" font-size="23" fill="#73c4ed" text-anchor="middle" font-weight="normal">OpenBot</text>
+<circle id="connector0pin" cx="175" cy="105" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="174.5" y="104.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="175" y="90" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">SCL</text>
+<circle id="connector1pin" cx="240" cy="105" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="239.5" y="104.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="240" y="90" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">SDA</text>
+<circle id="connector2pin" cx="110" cy="105" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="109.5" y="104.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="110" y="90" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">VCC</text>
+<circle id="connector3pin" cx="45" cy="105" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector3terminal" x="44.5" y="104.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="45" y="90" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#ffffff" text-anchor="middle" font-weight="normal">GND</text>
+</g></svg>

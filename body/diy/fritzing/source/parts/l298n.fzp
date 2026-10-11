@@ -1,0 +1,182 @@
+<?xml version='1.0' encoding='utf-8'?>
+<module moduleId="OpenBot_DIY_Nano_l298n_v2" fritzingVersion="1.0.8">
+  <version>1</version>
+  <date>2026-10-11</date>
+  <author>nitrobin / OpenBot fork</author>
+  <title>L298N</title>
+  <label>L298N</label>
+  <description>OpenBot DIY functional wiring symbol. Pin names identify contacts; positions are schematic. License: CC BY-SA 3.0.</description>
+  <properties>
+    <property name="family">OpenBot DIY wiring</property>
+    <property name="part number">L298N</property>
+  </properties>
+  <views>
+    <breadboardView>
+      <layers image="breadboard/l298n.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/l298n.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <iconView>
+      <layers image="icon/l298n.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+  </views>
+  <connectors>
+    <connector id="connector0" name="OUT1" type="male">
+      <description>OUT1 (+ L)</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector0pin" terminalId="connector0terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector0pin" terminalId="connector0terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector1" name="OUT2" type="male">
+      <description>OUT2 (− L)</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector1pin" terminalId="connector1terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector1pin" terminalId="connector1terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector2" name="OUT3" type="male">
+      <description>OUT3 (− R)</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector2pin" terminalId="connector2terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector2pin" terminalId="connector2terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector3" name="OUT4" type="male">
+      <description>OUT4 (+ R)</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector3pin" terminalId="connector3terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector3pin" terminalId="connector3terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector4" name="IN1" type="male">
+      <description>IN1</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector4pin" terminalId="connector4terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector4pin" terminalId="connector4terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector5" name="IN2" type="male">
+      <description>IN2</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector5pin" terminalId="connector5terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector5pin" terminalId="connector5terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector6" name="IN3" type="male">
+      <description>IN3</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector6pin" terminalId="connector6terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector6pin" terminalId="connector6terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector7" name="IN4" type="male">
+      <description>IN4</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector7pin" terminalId="connector7terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector7pin" terminalId="connector7terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector8" name="+12V" type="male">
+      <description>+12V</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector8pin" terminalId="connector8terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector8pin" terminalId="connector8terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector9" name="GND" type="male">
+      <description>GND</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector9pin" terminalId="connector9terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector9pin" terminalId="connector9terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector10" name="5V" type="male">
+      <description>5V *</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector10pin" terminalId="connector10terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector10pin" terminalId="connector10terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector11" name="ENA" type="male">
+      <description>ENA</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector11pin" terminalId="connector11terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector11pin" terminalId="connector11terminal" />
+        </schematicView>
+      </views>
+    </connector>
+    <connector id="connector12" name="ENB" type="male">
+      <description>ENB</description>
+      <views>
+        <breadboardView>
+          <p layer="breadboard" svgId="connector12pin" terminalId="connector12terminal" />
+        </breadboardView>
+        <schematicView>
+          <p layer="schematic" svgId="connector12pin" terminalId="connector12terminal" />
+        </schematicView>
+      </views>
+    </connector>
+  </connectors>
+  <buses>
+    <bus id="bus0">
+      <nodeMember connectorId="connector10" />
+      <nodeMember connectorId="connector11" />
+      <nodeMember connectorId="connector12" />
+    </bus>
+  </buses>
+</module>

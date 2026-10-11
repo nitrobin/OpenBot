@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16.66666667in" height="1.83333333in" viewBox="0 0 1500 165">
+<g id="breadboard">
+<text x="8" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">* Питание 5V показано как в исходной схеме. Для 3S (12,6 В) проверь модуль L298N и питание TT.</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">При внешних стабилизированных 5 В отключи 5V-EN; ENA / ENB остаются включены.</text>
+<text x="8" y="81" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">Проверь допустимое питание OLED VCC / VIN. USB-питание Nano не объединяй со вторым источником 5V.</text>
+<text x="8" y="108" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">Цвет проводов обозначает назначение; см. цветную легенду ниже.</text>
+<text x="8" y="135" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">R1 = 20 кОм · R2 = 10 кОм · R3 = R4 = 150 Ом · A7 = VBAT / 3 · NC = не подключено.</text>
+</g></svg>

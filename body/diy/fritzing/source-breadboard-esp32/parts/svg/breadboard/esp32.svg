@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3.77777778in" height="10.22222222in" viewBox="0 0 340 920">
+<g id="breadboard">
+<text x="170" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="24" fill="#203040" text-anchor="middle" font-weight="bold">ESP32 · 38 pin</text>
+<rect x="10" y="60" width="320" height="850" rx="12" fill="#263438" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="305" cy="80" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="35" cy="890" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<circle cx="305" cy="890" r="9" fill="#d2d7da" stroke="#495463" stroke-width="2"/>
+<rect x="105" y="76" width="130" height="85" rx="0" fill="#354947" stroke="#495463" stroke-width="2"/>
+<path d="M110 145 V92 H133 V133 H156 V92 H179 V133 H202 V92 H229" fill="none" stroke="#c6b16f" stroke-width="5"/>
+<rect x="105" y="170" width="130" height="235" rx="3" fill="#b8c0c6" stroke="#495463" stroke-width="2"/>
+<text x="170" y="245" font-family="Noto Sans,Arial,sans-serif" font-size="14" fill="#203040" text-anchor="middle" font-weight="normal">ESP-WROOM</text>
+<text x="170" y="267" font-family="Noto Sans,Arial,sans-serif" font-size="24" fill="#203040" text-anchor="middle" font-weight="bold">32</text>
+<rect x="131" y="535" width="78" height="65" rx="0" fill="#22282e" stroke="#495463" stroke-width="2"/>
+<text x="170" y="575" font-family="Noto Sans,Arial,sans-serif" font-size="10" fill="#ffffff" text-anchor="middle" font-weight="normal">USB UART</text>
+<rect x="80" y="820" width="42" height="35" rx="0" fill="#d9d9d9" stroke="#495463" stroke-width="2"/>
+<rect x="218" y="820" width="42" height="35" rx="0" fill="#d9d9d9" stroke="#495463" stroke-width="2"/>
+<text x="101" y="811" font-family="Noto Sans,Arial,sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="normal">EN</text>
+<text x="239" y="811" font-family="Noto Sans,Arial,sans-serif" font-size="13" fill="#ffffff" text-anchor="middle" font-weight="normal">BOOT</text>
+<rect x="133" y="842" width="74" height="73" rx="4" fill="#b9c1c6" stroke="#495463" stroke-width="2"/>
+<rect x="140" y="865" width="60" height="42" rx="0" fill="#343c44" stroke="#495463" stroke-width="2"/>
+<text x="170" y="835" font-family="Noto Sans,Arial,sans-serif" font-size="14" fill="#ffffff" text-anchor="middle" font-weight="normal">USB</text>
+<circle id="connector0pin" cx="320" cy="548" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="319.5" y="547.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="554" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO4</text>
+<circle id="connector1pin" cx="20" cy="616" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="19.5" y="615.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="622" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO13</text>
+<circle id="connector2pin" cx="20" cy="548" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector2terminal" x="19.5" y="547.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="554" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO12</text>
+<circle id="connector3pin" cx="320" cy="650" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector3terminal" x="319.5" y="649.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="656" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO15</text>
+<circle id="connector4pin" cx="320" cy="616" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector4terminal" x="319.5" y="615.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="622" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO2</text>
+<circle id="connector5pin" cx="20" cy="174" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector5terminal" x="19.5" y="173.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="180" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">EN</text>
+<circle id="connector6pin" cx="20" cy="344" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector6terminal" x="19.5" y="343.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="350" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO32</text>
+<circle id="connector7pin" cx="20" cy="378" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector7terminal" x="19.5" y="377.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="384" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO33</text>
+<circle id="connector8pin" cx="20" cy="412" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector8terminal" x="19.5" y="411.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="418" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO25</text>
+<circle id="connector9pin" cx="20" cy="446" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector9terminal" x="19.5" y="445.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="452" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO26</text>
+<circle id="connector10pin" cx="20" cy="480" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector10terminal" x="19.5" y="479.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="486" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO27</text>
+<circle id="connector11pin" cx="20" cy="514" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector11terminal" x="19.5" y="513.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="520" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO14</text>
+<circle id="connector12pin" cx="20" cy="276" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector12terminal" x="19.5" y="275.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="282" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO34</text>
+<circle id="connector13pin" cx="20" cy="208" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector13terminal" x="19.5" y="207.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="214" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">VP / 36</text>
+<circle id="connector14pin" cx="20" cy="242" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector14terminal" x="19.5" y="241.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="248" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">VN / 39</text>
+<circle id="connector15pin" cx="20" cy="582" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector15terminal" x="19.5" y="581.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="588" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">GND</text>
+<circle id="connector16pin" cx="320" cy="344" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector16terminal" x="319.5" y="343.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="350" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">GND</text>
+<circle id="connector17pin" cx="320" cy="582" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector17terminal" x="319.5" y="581.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="588" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO0</text>
+<circle id="connector18pin" cx="20" cy="310" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector18terminal" x="19.5" y="309.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="316" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">IO35</text>
+<circle id="connector19pin" cx="320" cy="208" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector19terminal" x="319.5" y="207.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="214" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO22</text>
+<circle id="connector20pin" cx="320" cy="446" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector20terminal" x="319.5" y="445.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="452" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO5</text>
+<circle id="connector21pin" cx="320" cy="412" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector21terminal" x="319.5" y="411.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="418" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO18</text>
+<circle id="connector22pin" cx="320" cy="378" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector22terminal" x="319.5" y="377.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="384" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO19</text>
+<circle id="connector23pin" cx="320" cy="310" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector23terminal" x="319.5" y="309.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="316" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO21</text>
+<circle id="connector24pin" cx="320" cy="174" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector24terminal" x="319.5" y="173.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="180" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO23</text>
+<circle id="connector25pin" cx="320" cy="514" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector25terminal" x="319.5" y="513.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="520" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO16</text>
+<circle id="connector26pin" cx="320" cy="480" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector26terminal" x="319.5" y="479.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="486" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">IO17</text>
+<circle id="connector27pin" cx="320" cy="242" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector27terminal" x="319.5" y="241.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="248" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">TX / 1</text>
+<circle id="connector28pin" cx="320" cy="276" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector28terminal" x="319.5" y="275.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="282" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">RX / 3</text>
+<circle id="connector29pin" cx="320" cy="752" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector29terminal" x="319.5" y="751.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="758" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">CLK / 6</text>
+<circle id="connector30pin" cx="320" cy="718" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector30terminal" x="319.5" y="717.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="724" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">SD0 / 7</text>
+<circle id="connector31pin" cx="320" cy="684" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector31terminal" x="319.5" y="683.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="690" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">SD1 / 8</text>
+<circle id="connector32pin" cx="20" cy="650" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector32terminal" x="19.5" y="649.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="656" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">SD2 / 9</text>
+<circle id="connector33pin" cx="20" cy="684" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector33terminal" x="19.5" y="683.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="690" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">SD3 / 10</text>
+<circle id="connector34pin" cx="20" cy="718" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector34terminal" x="19.5" y="717.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="724" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">CMD / 11</text>
+<circle id="connector35pin" cx="20" cy="752" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector35terminal" x="19.5" y="751.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="758" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">5V / VIN</text>
+<circle id="connector36pin" cx="20" cy="140" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector36terminal" x="19.5" y="139.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="35" y="146" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="start" font-weight="normal">3V3</text>
+<circle id="connector37pin" cx="320" cy="140" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector37terminal" x="319.5" y="139.5" width="1" height="1" fill="none" stroke="none"/>
+<text x="305" y="146" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#ffffff" text-anchor="end" font-weight="normal">GND</text>
+</g></svg>

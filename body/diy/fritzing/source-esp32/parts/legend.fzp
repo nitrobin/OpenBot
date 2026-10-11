@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<module moduleId="OpenBot_DIY_ESP32_legend_v2" fritzingVersion="1.0.8">
+  <version>1</version>
+  <date>2026-10-11</date>
+  <author>nitrobin / OpenBot fork</author>
+  <title>Цвета проводов</title>
+  <label>Цвета проводов</label>
+  <description>OpenBot DIY functional wiring symbol. Pin names identify contacts; positions are schematic. License: CC BY-SA 3.0.</description>
+  <properties>
+    <property name="family">OpenBot DIY wiring</property>
+    <property name="part number">Цвета проводов</property>
+  </properties>
+  <views>
+    <breadboardView>
+      <layers image="breadboard/legend.svg">
+        <layer layerId="breadboard" />
+      </layers>
+    </breadboardView>
+    <schematicView>
+      <layers image="schematic/legend.svg">
+        <layer layerId="schematic" />
+      </layers>
+    </schematicView>
+    <iconView>
+      <layers image="icon/legend.svg">
+        <layer layerId="icon" />
+      </layers>
+    </iconView>
+  </views>
+  <connectors />
+  <buses />
+</module>

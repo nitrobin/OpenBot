@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.00000000in" height="1.61111111in" viewBox="0 0 180 145">
+<g id="breadboard">
+<text x="90" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="middle" font-weight="bold">SW1 · питание</text>
+<rect x="30" y="52" width="120" height="55" rx="5" fill="#292e34" stroke="#495463" stroke-width="2"/>
+<rect x="93" y="60" width="47" height="39" rx="3" fill="#cf4444" stroke="#495463" stroke-width="2"/>
+<text x="109" y="85" font-family="Noto Sans,Arial,sans-serif" font-size="15" fill="#ffffff" text-anchor="start" font-weight="normal">ON</text>
+<text x="45" y="140" font-family="Noto Sans,Arial,sans-serif" font-size="15" fill="#203040" text-anchor="middle" font-weight="normal">IN</text>
+<text x="135" y="140" font-family="Noto Sans,Arial,sans-serif" font-size="15" fill="#203040" text-anchor="middle" font-weight="normal">OUT</text>
+<circle id="connector0pin" cx="45" cy="117" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="44.5" y="116.5" width="1" height="1" fill="none" stroke="none"/>
+<circle id="connector1pin" cx="135" cy="117" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="134.5" y="116.5" width="1" height="1" fill="none" stroke="none"/>
+</g></svg>

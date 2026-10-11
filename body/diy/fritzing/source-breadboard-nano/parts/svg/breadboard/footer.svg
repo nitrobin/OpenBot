@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="23.88888889in" height="1.88888889in" viewBox="0 0 2150 170">
+<g id="breadboard">
+<text x="8" y="26" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Модули LM393 / OLED / L298N: показан пример — сверяй маркировку на своей плате.</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Линии питания — монтажные провода; точки обозначают соединения. Пересечения без точки не соединены.</text>
+<text x="8" y="82" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Номиналы и условия питания сохранены из соответствующей схемы; см. README. NC = не подключено.</text>
+<text x="8" y="110" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: USB сверху. VIN свободен; измерение батареи идёт через 20 кОм + 10 кОм на A7.</text>
+<text x="8" y="138" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: питание как в исходной схеме. Для батареи 3S проверь регулятор L298N и допустимое питание TT.</text>
+</g></svg>

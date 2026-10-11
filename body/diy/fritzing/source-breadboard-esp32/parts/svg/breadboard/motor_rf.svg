@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2.77777778in" height="2.72222222in" viewBox="0 0 250 245">
+<g id="breadboard">
+<text x="120" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="17" fill="#203040" text-anchor="middle" font-weight="bold">M3 · правый передний</text>
+<rect x="15" y="62" width="145" height="147" rx="18" fill="#f5c72f" stroke="#495463" stroke-width="2"/>
+<rect x="148" y="88" width="77" height="104" rx="12" fill="#b2b8bc" stroke="#495463" stroke-width="2"/>
+<circle cx="75" cy="135" r="38" fill="#f2d96c" stroke="#495463" stroke-width="2"/>
+<circle cx="75" cy="135" r="13" fill="#ffffff" stroke="#495463" stroke-width="2"/>
+<rect x="3" y="121" width="32" height="28" rx="0" fill="#ffffff" stroke="#495463" stroke-width="2"/>
+<text x="217" y="94" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">+</text>
+<text x="217" y="203" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">−</text>
+<text x="90" y="231" font-family="Noto Sans,Arial,sans-serif" font-size="16" fill="#203040" text-anchor="middle" font-weight="normal">TT</text>
+<circle id="connector0pin" cx="230" cy="110" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector0terminal" x="229.5" y="109.5" width="1" height="1" fill="none" stroke="none"/>
+<circle id="connector1pin" cx="230" cy="170" r="7" fill="#d3b36c" stroke="#68532b" stroke-width="2"/>
+<rect id="connector1terminal" x="229.5" y="169.5" width="1" height="1" fill="none" stroke="none"/>
+</g></svg>

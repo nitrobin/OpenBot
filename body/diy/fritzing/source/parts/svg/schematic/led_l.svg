@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1.77777778in" height="1.33333333in" viewBox="0 0 160 120">
+<g id="schematic">
+<text x="80" y="107" font-family="Noto Sans,Arial,sans-serif" font-size="19" font-weight="bold" fill="#172433" text-anchor="middle">LED L · левый</text>
+<line x1="0" y1="40" x2="160" y2="40" stroke="#333" stroke-width="2"/>
+<path d="M60 26 L60 54 L86 40 Z M86 26 L86 54" fill="#f5a623" stroke="#333" stroke-width="2"/>
+<path d="M81 22 L96 7 M95 15 L96 7 L88 8 M93 27 L108 12 M107 20 L108 12 L100 13" fill="none" stroke="#333" stroke-width="2"/>
+<text x="4" y="72" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">A (+)</text>
+<text x="156" y="72" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="end">K (−)</text>
+<line id="connector0pin" x1="0" y1="40" x2="20" y2="40" stroke="#555" stroke-width="2"/>
+<rect id="connector0terminal" x="-0.5" y="39.5" width="1" height="1" fill="none" stroke="none"/>
+<line id="connector1pin" x1="160" y1="40" x2="140" y2="40" stroke="#555" stroke-width="2"/>
+<rect id="connector1terminal" x="159.5" y="39.5" width="1" height="1" fill="none" stroke="none"/>
+</g></svg>
