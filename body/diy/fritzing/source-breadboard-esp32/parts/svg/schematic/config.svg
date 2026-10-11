@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="12.11111111in" height="1.77777778in" viewBox="0 0 1090 160">
-<g id="schematic">
-<text x="8" y="27" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">Прошивка: OPENBOT DIY_ESP32 · HAS_INDICATORS 0 (конфликт с дальномером)</text>
-<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">OLED не подключён: GPIO22 занят правым LM393. HAS_OLED 0.</text>
-<text x="8" y="81" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">R1 / R2: батарея ÷ 4 → GPIO4 · R3 / R4: Echo × 2/3 → GPIO18</text>
-<text x="8" y="108" font-family="Noto Sans,Arial,sans-serif" font-size="16" font-weight="normal" fill="#172433" text-anchor="start">R5 / R6: подтяжка D0 / DO к 3V3; у GPIO35 нет внутренней подтяжки.</text>
-</g></svg>

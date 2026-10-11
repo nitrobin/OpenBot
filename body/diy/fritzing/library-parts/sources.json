@@ -115,5 +115,15 @@
       ".fzp": "7a3bcf7d5ab99537c8d7b1bc056a99b24c9577081b8fc76f148d76f77eea1107",
       ".svg": "23cd5b250f357aad5436beee0df361f059e8b03cafe480f4b43ef60cdc0ebe66"
     }
+  },
+  "xt30": {
+    "source": "https://forum.fritzing.org/t/need-part-for-xt30-pcb-connector/32430/2",
+    "author": "Peter Van Epp (vanepp)",
+    "license": "Published Fritzing part; no explicit license in FZP",
+    "sha256": {
+      ".fzpz": "214fe39f79cd107dbdef385c0dc68514b7a49b2b298f8edc0357c9fe86b18b05",
+      ".fzp": "5a4a564a2a0b961c381c6efd80c580ad77a7b0d0f0ebb786335d57c7e14d9890",
+      ".svg": "5afaad0c87af9c7ea80500fe4cb39eb1819013b4bb174c5838220f023665f9c5"
+    }
   }
 }

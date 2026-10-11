@@ -1,20 +1,33 @@
 {
   "baseline_commit": "12c12e5ca1e4a3876535533e984bed702a1f8db9",
   "method": "FZZ connector references + FZP buses; independent graph traversal; all original ports including NC",
+  "reference_corrections": [
+    {
+      "board": "nano",
+      "port": "nano.5V",
+      "expected": "externally unconnected (USB/OTG power)",
+      "source": "docs/images/wiring_diagram.png; body/diy/README.md, DIY step 21",
+      "reason": "Earlier generated baseline incorrectly joined Nano 5V to L298N/sensor power"
+    }
+  ],
   "files": [
     {
       "file": "openbot-diy-nano.fzz",
-      "sha256": "04887faec8133c19327cb20203289081e9b233edb09b9bac3982c68f72c419ce",
+      "sha256": "769a77890116d53b1fa4cdceb724fbad75179bcb497189182a7409d5e90399b2",
       "views": {
         "breadboardView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "reference_nets": 38,
+          "original_ports": 83,
+          "Nano_5V_externally_unconnected": true,
+          "common_GND_preserved": true
         },
         "schematicView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "reference_nets": 38,
+          "original_ports": 83,
+          "Nano_5V_externally_unconnected": true,
+          "common_GND_preserved": true
         }
       },
       "pin_names_internal_buses_and_component_values": "unchanged"
@@ -25,12 +38,12 @@
       "views": {
         "breadboardView": {
           "status": "pass",
-          "original_nets": 45,
+          "reference_nets": 45,
           "original_ports": 93
         },
         "schematicView": {
           "status": "pass",
-          "original_nets": 45,
+          "reference_nets": 45,
           "original_ports": 93
         }
       },
@@ -38,17 +51,21 @@
     },
     {
       "file": "openbot-diy-nano-breadboard.fzz",
-      "sha256": "50404584ba63b89eb38c80bf15b3a000886e92358f90faa7c72f200fc3e6a5aa",
+      "sha256": "a5beb272e7358ff487bc09618e060a6a48e39932851de81a1e3f7df09ba420e2",
       "views": {
         "breadboardView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "reference_nets": 38,
+          "original_ports": 83,
+          "Nano_5V_externally_unconnected": true,
+          "common_GND_preserved": true
         },
         "schematicView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "reference_nets": 38,
+          "original_ports": 83,
+          "Nano_5V_externally_unconnected": true,
+          "common_GND_preserved": true
         }
       },
       "pin_names_internal_buses_and_component_values": "unchanged"
@@ -59,40 +76,75 @@
       "views": {
         "breadboardView": {
           "status": "pass",
-          "original_nets": 45,
+          "reference_nets": 45,
           "original_ports": 93
         },
         "schematicView": {
           "status": "pass",
-          "original_nets": 45,
+          "reference_nets": 45,
           "original_ports": 93
         }
       },
       "pin_names_internal_buses_and_component_values": "unchanged"
     },
     {
-      "file": "openbot-diy-nano-on-breadboard.fzz",
-      "sha256": "a80b2fefb39d672230f9115d1f9e30aff6c1b01536ebbd31e5ef5a3cb22e59bc",
+      "file": "openbot-diy-power-hub.fzz",
+      "sha256": "11847db433178201babd96d50cd4c75895ca4e19eca9db83707bf583fb55256e",
       "views": {
         "breadboardView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "ports": 30,
+          "ON_nets": 4,
+          "OFF_nets": 5,
+          "switch_opens_VBAT_OUT": true,
+          "unplugged_SW_opens_VBAT_OUT": true,
+          "5V_separate_from_VBAT_and_GND": true,
+          "L298N_supply_wires": 3,
+          "5V_source": "L298N.5V (5V-EN ON)",
+          "Nano_hub_connection": "GND + A7 (USB power)",
+          "all_hub_pins_named_by_destination": true,
+          "divider": {
+            "R1": "20 кОм",
+            "R2": "10 кОм",
+            "A7_net": [
+              "power_hub.A7 NANO",
+              "r1.2",
+              "r2.1"
+            ],
+            "ratio": "1/3",
+            "V_A7_at_VBAT_12_6": 4.2,
+            "resistors_inside_hub": true,
+            "no_resistor_bypass": true
+          }
         },
         "schematicView": {
           "status": "pass",
-          "original_nets": 37,
-          "original_ports": 83
+          "ports": 30,
+          "ON_nets": 4,
+          "OFF_nets": 5,
+          "switch_opens_VBAT_OUT": true,
+          "unplugged_SW_opens_VBAT_OUT": true,
+          "5V_separate_from_VBAT_and_GND": true,
+          "L298N_supply_wires": 3,
+          "5V_source": "L298N.5V (5V-EN ON)",
+          "Nano_hub_connection": "GND + A7 (USB power)",
+          "all_hub_pins_named_by_destination": true,
+          "divider": {
+            "R1": "20 кОм",
+            "R2": "10 кОм",
+            "A7_net": [
+              "power_hub.A7 NANO",
+              "r1.2",
+              "r2.1"
+            ],
+            "ratio": "1/3",
+            "V_A7_at_VBAT_12_6": 4.2,
+            "resistors_inside_hub": true,
+            "no_resistor_bypass": true
+          }
         }
       },
-      "pin_names_internal_buses_and_component_values": "unchanged",
-      "breadboard": {
-        "stock_internal_buses": 68,
-        "buses_unchanged": true,
-        "mounted_pins_verified": 12,
-        "resistors_bypassed": false,
-        "5V_GND_short": false
-      }
+      "method": "explicit connector contract; switch bus removed for OFF"
     }
   ],
   "shared_module_artwork_conflicts": 0

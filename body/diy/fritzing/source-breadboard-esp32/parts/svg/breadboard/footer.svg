@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="28.88888889in" height="2.05555556in" viewBox="0 0 2600 185">
-<g id="breadboard">
-<text x="8" y="26" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Колодка 6 × 2: припаять каждый ряд отдельно; один ряд 5V, второй GND. Между рядами нет соединения.</text>
-<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Провода и контакты редактируются в Fritzing. Точки = соединения; пересечения без точки не соединены.</text>
-<text x="8" y="82" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">LM393 / OLED / L298N: сверяй маркировку своей платы; корпуса из готовых библиотек Fritzing.</text>
-<text x="8" y="110" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Номиналы и условия питания — см. README. NC = не подключено.</text>
-<text x="8" y="138" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">ESP32: USB снизу. Датчики LM393 питаются от 3V3, отдельно от колодки 5V.</text>
-<text x="8" y="166" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">5V-EN L298N снять; ENA / ENB включены. Echo: 1 кОм + 2 кОм; HAS_INDICATORS = 0.</text>
-</g></svg>
