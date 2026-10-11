@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="3x_18650_8179304888a1ad916fb6863c19feb348_7" referenceFile="battery-AA.fzp" fritzingVersion="0.3.9b.10.15.3559">
+ <version>4</version>
+ <author>revolt_randy</author>
+ <title>Battery</title>
+ <label>VCC</label>
+ <date>Mon Feb 21 2022</date>
+ <tags>
+  <tag>power supply</tag>
+  <tag>Battery</tag>
+ </tags>
+ <properties>
+  <property name="variant">variant 4</property>
+  <property name="family">battery</property>
+  <property name="part number"></property>
+  <property name="layer"></property>
+  <property name="voltage">11.1</property>
+ </properties>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Your standard 3x 18650 battery pack (11.1 Volts)&lt;/p>&lt;/body>&lt;/html></description>
+ <spice>
+  <line>V{instanceTitle} {net connector1} {net connector0} DC {voltage}</line>
+ </spice>
+ <views>
+  <iconView>
+   <layers image="icon/3x_18650_f17b1ef3820c644b95a1642e294c5735_1_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/3x_18650_f17b1ef3820c644b95a1642e294c5735_1_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/3x_18650_f17b1ef3820c644b95a1642e294c5735_1_schematic.svg">
+    <layer layerId="schematic"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/3x_18650_f17b1ef3820c644b95a1642e294c5735_1_pcb.svg">
+    <layer layerId="copper0"/>
+    <layer layerId="silkscreen"/>
+    <layer layerId="copper1"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector name="-" type="male" id="connector0">
+   <erc etype="ground">
+    <current valueMax="0.1" flow="sink"/>
+   </erc>
+   <description>negative side</description>
+   <views>
+    <breadboardView>
+     <p legId="connector0leg" svgId="connector0pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector0pin" layer="schematic" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="copper0"/>
+     <p svgId="connector0pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector name="+" type="male" id="connector1">
+   <erc etype="VCC">
+    <voltage value="3.0"/>
+    <current valueMax="0.1" flow="source"/>
+   </erc>
+   <description>positive side</description>
+   <views>
+    <breadboardView>
+     <p legId="connector1leg" svgId="connector1pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector1pin" layer="schematic" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="copper0"/>
+     <p svgId="connector1pin" layer="copper1"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+</module>

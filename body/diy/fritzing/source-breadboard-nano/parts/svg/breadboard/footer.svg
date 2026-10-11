@@ -1,8 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="23.88888889in" height="1.88888889in" viewBox="0 0 2150 170">
+<svg xmlns="http://www.w3.org/2000/svg" width="26.66666667in" height="2.05555556in" viewBox="0 0 2400 185">
 <g id="breadboard">
-<text x="8" y="26" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Модули LM393 / OLED / L298N: показан пример — сверяй маркировку на своей плате.</text>
-<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Линии питания — монтажные провода; точки обозначают соединения. Пересечения без точки не соединены.</text>
-<text x="8" y="82" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Номиналы и условия питания сохранены из соответствующей схемы; см. README. NC = не подключено.</text>
-<text x="8" y="110" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: USB сверху. VIN свободен; измерение батареи идёт через 20 кОм + 10 кОм на A7.</text>
-<text x="8" y="138" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: питание как в исходной схеме. Для батареи 3S проверь регулятор L298N и допустимое питание TT.</text>
+<text x="8" y="26" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Колодка 6 × 2: припаять каждый ряд отдельно; один ряд 5V, второй GND. Между рядами нет соединения.</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Провода и контакты редактируются в Fritzing. Точки = соединения; пересечения без точки не соединены.</text>
+<text x="8" y="82" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">LM393 / OLED / L298N: сверяй маркировку своей платы; корпуса из готовых библиотек Fritzing.</text>
+<text x="8" y="110" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Номиналы и условия питания — см. README. NC = не подключено.</text>
+<text x="8" y="138" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: USB сверху. VIN свободен; батарея → делитель 20 кОм + 10 кОм → A7.</text>
+<text x="8" y="166" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Nano: исходное питание. Для батареи 3S проверь регулятор L298N и допустимое питание TT.</text>
 </g></svg>

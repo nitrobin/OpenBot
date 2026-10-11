@@ -1,5 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30.00000000in" height="0.94444444in" viewBox="0 0 2700 85">
+<svg xmlns="http://www.w3.org/2000/svg" width="32.77777778in" height="0.94444444in" viewBox="0 0 2950 85">
 <g id="breadboard">
 <text x="10" y="28" font-family="Noto Sans,Arial,sans-serif" font-size="30" fill="#203040" text-anchor="start" font-weight="bold">OpenBot DIY · ESP32 · Breadboard</text>
-<text x="10" y="61" font-family="Noto Sans,Arial,sans-serif" font-size="20" fill="#203040" text-anchor="start" font-weight="normal">Вид сверху: соединяй контакты по маркировке. Цвет = назначение провода.</text>
+<text x="10" y="61" font-family="Noto Sans,Arial,sans-serif" font-size="20" fill="#203040" text-anchor="start" font-weight="normal">Готовые компоненты Fritzing · цвет = назначение провода · контакты по маркировке</text>
 </g></svg>

@@ -1,0 +1,297 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<module moduleId="L298N motor driver_ed29594eba4fbd330bd92441a17764ea_15" referenceFile="pushbutton_2_horizontal.fzp" fritzingVersion="0.1.1201">
+ <version>4</version>
+ <title>L298N DC motor driver</title>
+ <date>Sa Nov 23 2019</date>
+ <label>L298N</label>
+ <tags>
+  <tag>motor</tag>
+  <tag>module</tag>
+  <tag>L298N</tag>
+  <tag>driver</tag>
+ </tags>
+ <properties>
+  <property name="family">motor</property>
+  <property name="variant">variant 1</property>
+ </properties>
+ <taxonomy>discreteParts.switches.pushbutton</taxonomy>
+ <description>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'MS Shell Dlg 2'; font-size:8.25pt; font-weight:400; font-style:normal;">
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">2x DC motor driver with 78M05 positive voltage regulator (7..35 V)&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">L298N: max 46 V, 2 A&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Set 5 V Enable jumper to enable 5 V regultor (needed for the L298N) and +5 V output at screw terminal &lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">or supply external +5 V at screw terminal&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">Set ENA and/or ENB to +5 V to enable motor permanently&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">or supply ENA and/or ENB with PWM signal&lt;/p>
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IN1 and IN2 set rotation directory for motor A (OUT1/OUT2)&lt;/p>
+&lt;p style=" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">IN2 and IN3 set rotation directory for motor A (OUT1/OUT2)&lt;/p>&lt;/body>&lt;/html></description>
+ <views>
+  <iconView>
+   <layers image="icon/L298N motor driver_ed29594eba4fbd330bd92441a17764ea_17_icon.svg">
+    <layer layerId="icon"/>
+   </layers>
+  </iconView>
+  <breadboardView>
+   <layers image="breadboard/L298N motor driver_ed29594eba4fbd330bd92441a17764ea_17_breadboard.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </breadboardView>
+  <schematicView>
+   <layers image="schematic/L298N motor driver_ed29594eba4fbd330bd92441a17764ea_17_schematic.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </schematicView>
+  <pcbView>
+   <layers image="pcb/L298N motor driver_ed29594eba4fbd330bd92441a17764ea_17_pcb.svg">
+    <layer layerId="breadboard"/>
+   </layers>
+  </pcbView>
+ </views>
+ <connectors>
+  <connector id="connector0" type="male" name="OUT1">
+   <description>OUT1</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector0pin" layer="breadboard" terminalId="connector0terminal"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector1" type="male" name="OUT2">
+   <description>OUT2</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector1pin" layer="breadboard" terminalId="connector1terminal"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector2" type="male" name="OUT3">
+   <description>OUT3</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector2pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector2pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector2pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector4" type="male" name="OUT4">
+   <description>OUT4</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector4pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector4pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector4pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector5" type="male" name="12V">
+   <description>7...35V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector5pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector5pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector5pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector6" type="male" name="GND">
+   <description>GND</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector6pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector6pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector6pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector7" type="male" name="5V">
+   <description>5V output or input</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector7pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector7pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector7pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector8" type="male" name="5VEN">
+   <description>enable 5V output</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector8pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector8pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector8pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector9" type="male" name="5V">
+   <description>5V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector9pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector9pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector9pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector10" type="male" name="5V">
+   <description>5V</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector10pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector10pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector10pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector11" type="male" name="ENA">
+   <description>ENA</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector11pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector11pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector11pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector12" type="male" name="ENB">
+   <description>ENB</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector12pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector12pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector12pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector13" type="male" name="IN1">
+   <description>IN1</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector13pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector13pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector13pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector14" type="male" name="IN2">
+   <description>IN2</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector14pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector14pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector14pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector15" type="male" name="IN3">
+   <description>IN3</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector15pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector15pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector15pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector16" type="male" name="IN4">
+   <description>IN4</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector16pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector16pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector16pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+  <connector id="connector17" type="male" name="5VEN">
+   <description>enable 5V output</description>
+   <views>
+    <breadboardView>
+     <p svgId="connector17pin" layer="breadboard"/>
+    </breadboardView>
+    <schematicView>
+     <p svgId="connector17pin" layer="breadboard"/>
+    </schematicView>
+    <pcbView>
+     <p svgId="connector17pin" layer="breadboard"/>
+    </pcbView>
+   </views>
+  </connector>
+ </connectors>
+ <author>Florian Schäffer</author>
+ <url/>
+</module>

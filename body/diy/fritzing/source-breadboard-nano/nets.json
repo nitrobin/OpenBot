@@ -16,6 +16,12 @@
     "nano.GND",
     "nano.GND2",
     "oled.GND",
+    "power_dist.GND1",
+    "power_dist.GND2",
+    "power_dist.GND3",
+    "power_dist.GND4",
+    "power_dist.GND5",
+    "power_dist.GND6",
     "r2.2",
     "sonar.GND"
   ],
@@ -34,6 +40,12 @@
     "l298n.ENB",
     "nano.5V",
     "oled.VCC",
+    "power_dist.5V1",
+    "power_dist.5V2",
+    "power_dist.5V3",
+    "power_dist.5V4",
+    "power_dist.5V5",
+    "power_dist.5V6",
     "sonar.VCC"
   ],
   [

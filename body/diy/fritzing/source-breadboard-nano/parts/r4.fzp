@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<module moduleId="OpenBot_DIY_Nano_r4_v2_physical_v1" fritzingVersion="1.0.8">
+<module moduleId="OpenBot_DIY_Nano_r4_v2_library_v1" fritzingVersion="1.0.8">
   <version>1</version>
   <date>2026-10-11</date>
-  <author>nitrobin / OpenBot fork</author>
+  <author>Brendan Howell</author>
   <title>R4</title>
   <label>R4</label>
-  <description>OpenBot DIY physical Breadboard illustration; pin order is board-specific. See README.breadboard.ru-RU.md. License: CC BY-SA 3.0.</description>
+  <description>OpenBot DIY: bundled Fritzing library artwork adapted to the existing connector IDs. Original author and license: library-parts/sources.json. See README.breadboard.ru-RU.md. Source: https://github.com/fritzing/fritzing-parts/blob/develop/core/resistor.fzp; CC BY-SA 3.0</description>
   <properties>
     <property name="family">OpenBot DIY wiring</property>
     <property name="part number">R4</property>

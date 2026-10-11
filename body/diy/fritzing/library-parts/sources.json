@@ -1,0 +1,119 @@
+{
+  "nano": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/Arduino Nano3(fix).fzp",
+    "author": "Althaus",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "96562784a1d1fbe490e90c3c5e44217eb1cff8e96b71942d233c5002fb073611",
+      ".svg": "a691db874e3441e6ebc5e74cadc8d6a58de2dc7a97dfe90100b03c54d9daca2d"
+    }
+  },
+  "sonar": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/hc-sr04_bf8299a_002.fzp",
+    "author": "Richard Bruneau",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "beb1c3a1ae8386b7833daed5758d2b5f0f38a8b4fed8e202518741b181ce6783",
+      ".svg": "0c0141aa53fd3958ecdc9f31f5ef15dee32e836542b535d05e41a3b6e980fb23"
+    }
+  },
+  "motor": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/gear-motor_2.fzp",
+    "author": "admin (modified by vanepp sep 2019)",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "3b093ae2e1202869f023d8466182cf351de8341cac740d1f106a7b0b970cceba",
+      ".svg": "b998fafe6185d19e5bedd40a139a5db042478138518d59de918bdccc0342531a"
+    }
+  },
+  "buck": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/RioRand_LM2596_94ce9810d0922bc731e2f315085d46ab_1.fzp",
+    "author": "Jenny Madorsky  (modified by Peter Van Epp)",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "27ee70db7e6e58385c2c778ce8b07ddbf86286457af012f7dd1b708a840e99d2",
+      ".svg": "4ad9ce3aac359f813c69cee419aec25e04f5844d28e426ccce592ef2ffd141ed"
+    }
+  },
+  "switch": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/basic-toggle-switch.fzp",
+    "author": "Jenny",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "03122276daccd959e1c60c470085f4b96ece3c709e6c5d62567b2b3b542745c9",
+      ".svg": "83f79837cd4ce289b4b9660edd0085766b3ed09a60e1053458d3af617c8e8673"
+    }
+  },
+  "resistor": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/resistor.fzp",
+    "author": "Brendan Howell",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "1149e79fe9d24c58182b72f74468e90478c025e2c713d1a927cb25da4738cdd3",
+      ".svg": "d6f8eb602d1ba8e1d5ee7453f91b8e4235913baaea29dc67d581d4135a096222"
+    }
+  },
+  "led": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/LED-generic-5mm_6852162_005.fzp",
+    "author": "Brendan Howell",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "69d55f28b3d94fd35878b801a3fa2a007fbf670b148006311e5e26cbf5014447",
+      ".svg": "345252b03525e7d2676a406971d027733150cd64573d6c24217a6c318a38b945"
+    }
+  },
+  "esp32": {
+    "author": "Andrey Fedorov (http://www.bizkit.ru)",
+    "source": "https://github.com/Warlib1975/Fritzing-parts",
+    "license": "MIT",
+    "sha256": {
+      ".fzp": "e7518a09ddfbdabd6724e3bfcc03a596124e7ebe09959cad31c106bdcafc5b8f",
+      ".svg": "3e36e7784c33ddf8d0d7c434ca73becf312ec51c5dd0aa264162a503532ccbc2"
+    }
+  },
+  "oled": {
+    "author": "Daniel Eichhorn",
+    "source": "https://github.com/TD-er/fritzing-parts/tree/master/OLED_SSD1306_I2C_128x64",
+    "license": "MIT",
+    "sha256": {
+      ".fzp": "dd2a2c98d5ca313a2dd3b99422d737319974a8ffece2015116e85320cfece741",
+      ".svg": "fe6b7114395f5f07a6b6ee581beed0dcec68b9a2bdf8ee101ab6540df5442c28"
+    }
+  },
+  "l298n": {
+    "author": "Florian Schäffer",
+    "source": "https://github.com/coderfls/Fritzing-Parts",
+    "license": "Published Fritzing part; no explicit license in FZP",
+    "sha256": {
+      ".fzp": "5042bc7c688a875f43695c865345edfe5b5ce5d76678323abf61a1acf49b90a4",
+      ".svg": "e82742c9e2248986c690feec2afa03e084864e217134eda13aef5e955f8b581e"
+    }
+  },
+  "fc03": {
+    "author": "Lucas Fernandes",
+    "source": "https://forum.fritzing.org/t/fc-03-ir-speed-sensor/5137/3",
+    "license": "Published Fritzing part; no explicit license in FZP",
+    "sha256": {
+      ".fzp": "af7e6f15289bca9075208f3ac3d3e2aeda735a754f07ce02c028e4cc1c8a87a6",
+      ".svg": "397dc798c78dcf59ff765da7dd1a0c23ee97befeebf4043013405d7eb3d5d58a"
+    }
+  },
+  "battery": {
+    "author": "revolt_randy",
+    "source": "https://forum.fritzing.org/t/18650-battery-holder-part-design/6523/32",
+    "license": "Published Fritzing part; no explicit license in FZP",
+    "sha256": {
+      ".fzp": "60c34113a7845fff9157f76121cf1648beb151ac00fe6b0d67e4bcd625d66c39",
+      ".svg": "3c4d650fcb73963a9306e66e21f7ea26751d3db3eaf93ce06e449f6812c22d09"
+    }
+  },
+  "breadboard": {
+    "source": "https://github.com/fritzing/fritzing-parts/blob/develop/core/halfBreadboard.fzp",
+    "author": "Brendan Howell",
+    "license": "CC BY-SA 3.0",
+    "sha256": {
+      ".fzp": "7a3bcf7d5ab99537c8d7b1bc056a99b24c9577081b8fc76f148d76f77eea1107",
+      ".svg": "23cd5b250f357aad5436beee0df361f059e8b03cafe480f4b43ef60cdc0ebe66"
+    }
+  }
+}

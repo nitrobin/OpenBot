@@ -17,6 +17,12 @@
     "esp32.GND2",
     "esp32.GND3",
     "l298n.GND",
+    "power_dist.GND1",
+    "power_dist.GND2",
+    "power_dist.GND3",
+    "power_dist.GND4",
+    "power_dist.GND5",
+    "power_dist.GND6",
     "r2.2",
     "r4.2",
     "sonar.GND"
@@ -27,6 +33,12 @@
     "l298n.5V",
     "l298n.ENA",
     "l298n.ENB",
+    "power_dist.5V1",
+    "power_dist.5V2",
+    "power_dist.5V3",
+    "power_dist.5V4",
+    "power_dist.5V5",
+    "power_dist.5V6",
     "sonar.VCC"
   ],
   [

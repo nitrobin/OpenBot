@@ -796,12 +796,14 @@
               <geometry x="0" y="0" />
               <connects>
                 <connect modelIndex="1033" connectorId="connector0" layer="breadboardWire" />
+                <connect modelIndex="30100" connectorId="connector0" layer="breadboardWire" />
               </connects>
             </connector>
             <connector connectorId="connector2" layer="breadboard">
               <geometry x="0" y="0" />
               <connects>
                 <connect modelIndex="1048" connectorId="connector0" layer="breadboardWire" />
+                <connect modelIndex="30110" connectorId="connector0" layer="breadboardWire" />
               </connects>
             </connector>
           </connectors>
@@ -819,12 +821,14 @@
               <geometry x="0" y="0" />
               <connects>
                 <connect modelIndex="1033" connectorId="connector0" layer="schematicTrace" />
+                <connect modelIndex="30000" connectorId="connector0" layer="schematicTrace" />
               </connects>
             </connector>
             <connector connectorId="connector2" layer="schematic">
               <geometry x="0" y="0" />
               <connects>
                 <connect modelIndex="1048" connectorId="connector0" layer="schematicTrace" />
+                <connect modelIndex="30010" connectorId="connector0" layer="schematicTrace" />
               </connects>
             </connector>
           </connectors>
@@ -6051,6 +6055,413 @@
               <connects>
                 <connect modelIndex="1032" connectorId="connector1" layer="schematicTrace" />
                 <connect modelIndex="1054" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="OpenBot_DIY_6x2_power_distribution_v1" modelIndex="900" path="power_dist.fzp">
+      <title>Распределитель 6 × 2</title>
+      <views>
+        <breadboardView layer="breadboard">
+          <geometry x="2300" y="250" z="2.5" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboard">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30103" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector6" layer="breadboard">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30113" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+        <schematicView layer="schematic">
+          <geometry x="2300" y="250" z="2.5" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematic">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30003" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector6" layer="schematic">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30013" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30100" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="1320.0" y="210.0" x1="0" y1="0" x2="0.0" y2="-30.0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="108" connectorId="connector1" layer="breadboard" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30101" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30101" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="1320.0" y="180" x1="0" y1="0" x2="940.0" y2="0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30100" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30102" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30102" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="2260" y="180" x1="0" y1="0" x2="0" y2="170" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30101" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30103" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30103" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="2260" y="350" x1="0" y1="0" x2="60" y2="0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30102" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="900" connectorId="connector0" layer="breadboard" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30110" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="1160.0" y="320.0" x1="0" y1="0" x2="0.0" y2="-100.0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="108" connectorId="connector2" layer="breadboard" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30111" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30111" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="1160.0" y="220" x1="0" y1="0" x2="1540.0" y2="0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30110" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30112" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30112" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="2700" y="220" x1="0" y1="0" x2="0" y2="130" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30111" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30113" connectorId="connector0" layer="breadboardWire" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30113" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <breadboardView layer="breadboardWire">
+          <geometry x="2700" y="350" x1="0" y1="0" x2="-80" y2="0" z="3.5" wireFlags="64" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30112" connectorId="connector1" layer="breadboardWire" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="breadboardWire">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="900" connectorId="connector6" layer="breadboard" />
+              </connects>
+            </connector>
+          </connectors>
+        </breadboardView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30000" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="1320.0" y="210.0" x1="0" y1="0" x2="0.0" y2="-30.0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="108" connectorId="connector1" layer="schematic" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30001" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30001" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="1320.0" y="180" x1="0" y1="0" x2="940.0" y2="0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30000" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30002" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30002" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="2260" y="180" x1="0" y1="0" x2="0" y2="170" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30001" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30003" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30003" path="wire.fzp">
+      <title>5V → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="2260" y="350" x1="0" y1="0" x2="60" y2="0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#ef6c00" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30002" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="900" connectorId="connector0" layer="schematic" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30010" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="1160.0" y="320.0" x1="0" y1="0" x2="0.0" y2="-100.0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="108" connectorId="connector2" layer="schematic" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30011" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30011" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="1160.0" y="220" x1="0" y1="0" x2="1540.0" y2="0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30010" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30012" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30012" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="2700" y="220" x1="0" y1="0" x2="0" y2="130" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30011" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30013" connectorId="connector0" layer="schematicTrace" />
+              </connects>
+            </connector>
+          </connectors>
+        </schematicView>
+      </views>
+    </instance>
+    <instance moduleIdRef="WireModuleID" modelIndex="30013" path="wire.fzp">
+      <title>GND → колодка</title>
+      <views>
+        <schematicView layer="schematicTrace">
+          <geometry x="2700" y="350" x1="0" y1="0" x2="-80" y2="0" z="3.5" wireFlags="128" />
+          <wireExtras mils="24" color="#202124" opacity="1" banded="0" />
+          <connectors>
+            <connector connectorId="connector0" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="30012" connectorId="connector1" layer="schematicTrace" />
+              </connects>
+            </connector>
+            <connector connectorId="connector1" layer="schematicTrace">
+              <geometry x="0" y="0" />
+              <connects>
+                <connect modelIndex="900" connectorId="connector6" layer="schematic" />
               </connects>
             </connector>
           </connectors>

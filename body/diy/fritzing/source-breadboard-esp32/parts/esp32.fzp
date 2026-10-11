@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<module moduleId="OpenBot_DIY_ESP32_esp32_v2_physical_v1" fritzingVersion="1.0.8">
+<module moduleId="OpenBot_DIY_ESP32_esp32_v2_library_v1" fritzingVersion="1.0.8">
   <version>1</version>
   <date>2026-10-11</date>
-  <author>nitrobin / OpenBot fork</author>
+  <author>Andrey Fedorov (http://www.bizkit.ru)</author>
   <title>ESP32 DevKit</title>
   <label>ESP32 DevKit</label>
-  <description>OpenBot DIY physical Breadboard illustration; pin order is board-specific. See README.breadboard.ru-RU.md. License: CC BY-SA 3.0.</description>
+  <description>OpenBot DIY: bundled Fritzing library artwork adapted to the existing connector IDs. Original author and license: library-parts/sources.json. See README.breadboard.ru-RU.md. Source: https://github.com/Warlib1975/Fritzing-parts; MIT</description>
   <properties>
     <property name="family">OpenBot DIY wiring</property>
     <property name="part number">ESP32 DevKit</property>

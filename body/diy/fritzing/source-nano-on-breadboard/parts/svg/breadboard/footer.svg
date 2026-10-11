@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="26.66666667in" height="2.05555556in" viewBox="0 0 2400 185">
+<g id="breadboard">
+<text x="8" y="26" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Обычная беспаечная макетная плата: R1–R4 и LED L / LED R установлены в её отверстия.</text>
+<text x="8" y="54" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">В каждой колонке A–E соединены; F–J соединены отдельно. Через центральный паз соединения нет.</text>
+<text x="8" y="82" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Верхние шины: 5V и GND. Нижние шины соединены с верхними двумя перемычками.</text>
+<text x="8" y="110" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Цвет = назначение провода. Пересечения без точки не соединены. Контакты сверяй по маркировке.</text>
+<text x="8" y="138" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Питание двигателей подключено к L298N отдельными проводами; через макетную плату оно не проходит.</text>
+<text x="8" y="166" font-family="Noto Sans,Arial,sans-serif" font-size="18" fill="#203040" text-anchor="start" font-weight="normal">Номиналы, питание Nano и настройки — см. README.nano-on-breadboard.ru-RU.md.</text>
+</g></svg>

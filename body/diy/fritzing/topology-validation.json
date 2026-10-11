@@ -1,0 +1,99 @@
+{
+  "baseline_commit": "12c12e5ca1e4a3876535533e984bed702a1f8db9",
+  "method": "FZZ connector references + FZP buses; independent graph traversal; all original ports including NC",
+  "files": [
+    {
+      "file": "openbot-diy-nano.fzz",
+      "sha256": "04887faec8133c19327cb20203289081e9b233edb09b9bac3982c68f72c419ce",
+      "views": {
+        "breadboardView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        },
+        "schematicView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        }
+      },
+      "pin_names_internal_buses_and_component_values": "unchanged"
+    },
+    {
+      "file": "openbot-diy-esp32.fzz",
+      "sha256": "bfd51a193bdaf52fa35b8c708ad98b992e157f18f7d2488852b6752031409ba3",
+      "views": {
+        "breadboardView": {
+          "status": "pass",
+          "original_nets": 45,
+          "original_ports": 93
+        },
+        "schematicView": {
+          "status": "pass",
+          "original_nets": 45,
+          "original_ports": 93
+        }
+      },
+      "pin_names_internal_buses_and_component_values": "unchanged"
+    },
+    {
+      "file": "openbot-diy-nano-breadboard.fzz",
+      "sha256": "50404584ba63b89eb38c80bf15b3a000886e92358f90faa7c72f200fc3e6a5aa",
+      "views": {
+        "breadboardView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        },
+        "schematicView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        }
+      },
+      "pin_names_internal_buses_and_component_values": "unchanged"
+    },
+    {
+      "file": "openbot-diy-esp32-breadboard.fzz",
+      "sha256": "f3eca7c8e1733303a3f1c04be0a689a8f922fadf238246142bfef6b05c36d581",
+      "views": {
+        "breadboardView": {
+          "status": "pass",
+          "original_nets": 45,
+          "original_ports": 93
+        },
+        "schematicView": {
+          "status": "pass",
+          "original_nets": 45,
+          "original_ports": 93
+        }
+      },
+      "pin_names_internal_buses_and_component_values": "unchanged"
+    },
+    {
+      "file": "openbot-diy-nano-on-breadboard.fzz",
+      "sha256": "a80b2fefb39d672230f9115d1f9e30aff6c1b01536ebbd31e5ef5a3cb22e59bc",
+      "views": {
+        "breadboardView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        },
+        "schematicView": {
+          "status": "pass",
+          "original_nets": 37,
+          "original_ports": 83
+        }
+      },
+      "pin_names_internal_buses_and_component_values": "unchanged",
+      "breadboard": {
+        "stock_internal_buses": 68,
+        "buses_unchanged": true,
+        "mounted_pins_verified": 12,
+        "resistors_bypassed": false,
+        "5V_GND_short": false
+      }
+    }
+  ],
+  "shared_module_artwork_conflicts": 0
+}
