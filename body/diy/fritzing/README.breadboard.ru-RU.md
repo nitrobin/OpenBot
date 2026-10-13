@@ -6,9 +6,9 @@
 | --- | --- | --- |
 | Arduino Nano ATmega328P | [openbot-diy-nano-breadboard.fzz](openbot-diy-nano-breadboard.fzz) | [PNG](openbot-diy-nano-breadboard.png) |
 | ESP32 DevKit ESP-WROOM-32, 38 контактов | [openbot-diy-esp32-breadboard.fzz](openbot-diy-esp32-breadboard.fzz) | [PNG](openbot-diy-esp32-breadboard.png) |
-| Отдельный распределитель со съёмной батареей и выключателем | [openbot-diy-power-hub.fzz](openbot-diy-power-hub.fzz) | [PNG](openbot-diy-power-hub.png) |
+| Плата питания и отдельная колодка ниже, обе в одном файле | [openbot-diy-power-hub.fzz](openbot-diy-power-hub.fzz) | [PNG](openbot-diy-power-hub.png) |
 
-Для быстрого подключения и замены батарейного блока и выключателя добавлена [схема отдельного распределителя Nano / L298N](README.power-hub.ru-RU.md): `BAT` и `SW` имеют по два контакта. L298N соединяется тремя проводами: `+12V`, `GND`, `5V`. Выходы подписаны по назначению: OLED, HC-SR04, FC-03 L / R, `GND NANO` и `A7 NANO`. Внутри блока установлены R1 20 кОм и R2 10 кОм делителя батареи. Nano получает измерительный сигнал на `A7` и общий `GND`, а питается по USB/OTG.
+В [схеме платы питания Nano / L298N](README.power-hub.ru-RU.md) `BAT` и `SW` подключаются сверху двумя контактами каждый. L298N соединяется тремя проводами: `+12V`, `GND`, `5V`; к Nano выведены `A7` и `GND`. На основной плате установлены R1 20 кОм / R2 10 кОм, а снизу оставлена только пара `5V` / `GND` с подписью `periferial`. Распределительная колодка OLED / HC-SR04 / FC-03 находится на отдельной плате ниже, соединённой двумя проводами. Обе платы входят в один `.fzz`, во вкладках Breadboard и Schematic. Nano питается по USB/OTG.
 
 ![Arduino Nano: вид Breadboard](openbot-diy-nano-breadboard.png)
 

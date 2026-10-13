@@ -19,6 +19,7 @@ from zipfile import ZipFile
 ROOT = Path(__file__).resolve().parent
 PREFIX = "body/diy/fritzing/"
 BASELINE = "12c12e5"
+POWER_HUB_BASELINE = "8d51688"
 VARIANTS = {
     "openbot-diy-nano": "nano",
     "openbot-diy-esp32": "esp32",
@@ -127,101 +128,113 @@ def project(components, allowed):
 
 
 def validate_power_hub(shared_artwork):
-    """Check the detachable module against its connector contract, ON and OFF."""
+    """Check the power board and the separate distribution board below it."""
     stem = "openbot-diy-power-hub"
     data = (ROOT/(stem+".fzz")).read_bytes()
     sketch = Sketch(data)
     names = ["BAT+", "GND BAT", "SW_IN", "SW_OUT", "VBAT L298N", "GND L298N", "5V L298N",
-             "5V OLED", "GND OLED", "5V HC-SR04", "GND HC-SR04", "5V FC-03 L", "GND FC-03 L",
-             "5V FC-03 R", "GND FC-03 R", "GND NANO", "A7 NANO", "VBAT R1", "GND R2"]
-    pins = sketch.fingerprint("power_hub")["connectors"]
-    assert {cid: name for cid, name, _ in pins} == {
-        f"connector{i}": name for i, name in enumerate(names)}, "Changed power hub pin order"
-    expected_buses = [[0, 2], [3, 4, 17], [1, 5, 8, 10, 12, 14, 15, 18], [6, 7, 9, 11, 13]]
+             "A7 NANO", "GND NANO", "5V periferial", "GND periferial", "VBAT R1", "GND R2"]
+    dist_names = ["5V IN", "5V OLED", "5V HC-SR04", "5V FC-03 L", "5V FC-03 R", "5V spare",
+                  "GND IN", "GND OLED", "GND HC-SR04", "GND FC-03 L", "GND FC-03 R", "GND spare"]
+    for key, expected in [("power_hub", names), ("power_dist", dist_names)]:
+        assert {cid: name for cid, name, _ in sketch.fingerprint(key)["connectors"]} == {
+            f"connector{i}": name for i, name in enumerate(expected)}, f"Wrong pin order: {key}"
+    buses = [[0, 2], [3, 4, 11], [1, 5, 8, 10, 12], [6, 9]]
     assert sketch.fingerprint("power_hub")["buses"] == sorted(
-        sorted(f"connector{i}" for i in bus) for bus in expected_buses), "Changed hub internal buses"
+        sorted(f"connector{i}" for i in bus) for bus in buses), "Changed main-board buses"
+    assert sketch.fingerprint("power_dist")["buses"] == sorted(
+        sorted(f"connector{i}" for i in bus) for bus in [range(6), range(6, 12)]), "Joined peripheral 5V and GND"
+    assert not any(target in name for name in names for target in ["OLED", "HC-SR04", "FC-03"]), "Distribution header remains on main board"
     assert sketch.fingerprint("switch")["buses"] == [["connector0", "connector1"]]
-    assert len(sketch.fingerprint("battery")["connectors"]) == 2
-    assert len(sketch.fingerprint("switch")["connectors"]) == 2
     assert {name for _, name, _ in sketch.fingerprint("l298n")["connectors"]} == {"+12V", "GND", "5V"}
-    assert "power_load" not in sketch.parts and "logic_source" not in sketch.parts
-    assert {name for name in names if "NANO" in name} == {"GND NANO", "A7 NANO"}, "Nano has GND and measurement A7, no power input"
     for key, value in [("r1", "20 кОм"), ("r2", "10 кОм")]:
-        definition = sketch.definition(sketch.parts[key])
-        assert definition.find("properties/property[@name='resistance']").text == value, f"Divider resistance: {key}"
-        assert not definition.findall("buses/bus"), f"Ideal bus bypasses divider resistor: {key}"
+        d = sketch.definition(sketch.parts[key])
+        assert d.find("properties/property[@name='resistance']").text == value
+        assert not d.findall("buses/bus"), f"Resistor bypass: {key}"
     raw = {"battery.+", "power_hub.BAT+", "power_hub.SW_IN", "switch.IN"}
     switched = {"switch.OUT", "power_hub.SW_OUT", "power_hub.VBAT L298N", "power_hub.VBAT R1", "l298n.+12V", "r1.1"}
-    ground = {"battery.GND", "l298n.GND", "r2.2", *("power_hub."+name for name in names if name.startswith("GND "))}
-    logic = {"l298n.5V", *("power_hub."+name for name in names if name.startswith("5V "))}
+    ground = {"battery.GND", "l298n.GND", "r2.2", *("power_hub."+n for n in names if n.startswith("GND ")),
+              *("power_dist."+n for n in dist_names if n.startswith("GND "))}
+    logic = {"l298n.5V", *("power_hub."+n for n in names if n.startswith("5V ")),
+             *("power_dist."+n for n in dist_names if n.startswith("5V "))}
     adc = {"power_hub.A7 NANO", "r1.2", "r2.1"}
     allowed = raw | switched | ground | logic | adc
-    actual_ports = {key+"."+name for key in sketch.parts
-                    for _, name, _ in sketch.fingerprint(key)["connectors"]}
-    assert actual_ports == allowed, "Changed power hub diagram port set"
-    for module_id, definition in sketch.definitions.items():
-        for layers in definition.findall("views/*/layers"):
-            image = layers.get("image")
-            svg = sketch.files["svg."+image.replace("/", ".")]
-            cache_key = module_id, image.split("/")[0]
-            if cache_key in shared_artwork:
-                assert shared_artwork[cache_key] == svg, f"Fritzing artwork cache conflict: {stem}/{cache_key}"
-            shared_artwork[cache_key] = svg
+    actual_ports = {key+"."+n for key in sketch.parts for _, n, _ in sketch.fingerprint(key)["connectors"]}
+    assert actual_ports == allowed
+    for mid, d in sketch.definitions.items():
+        for layers in d.findall("views/*/layers"):
+            image = layers.get("image");art = sketch.files["svg."+image.replace("/", ".")]
+            cache_key = mid, image.split("/")[0]
+            if cache_key in shared_artwork:assert shared_artwork[cache_key] == art, f"Artwork cache conflict: {cache_key}"
+            shared_artwork[cache_key] = art
     opened = Sketch(data)
-    switch_definition = opened.definition(opened.parts["switch"])
-    switch_definition.remove(switch_definition.find("buses"))
-    unplugged = Sketch(data)
-    hub_index = unplugged.parts["power_hub"].get("modelIndex")
-    for view in ["breadboardView", "schematicView"]:
-        for cid in ["connector2", "connector3"]:
-            links = unplugged.parts["power_hub"].find(
-                f"views/{view}/connectors/connector[@connectorId='{cid}']/connects")
-            for ref in list(links):
-                reciprocal = unplugged.instances[ref.get("modelIndex")].find(
-                    f"views/{view}/connectors/connector[@connectorId='{ref.get('connectorId')}']/connects")
-                for back in list(reciprocal):
-                    if back.get("modelIndex") == hub_index and back.get("connectorId") == cid:
-                        reciprocal.remove(back)
-                links.remove(ref)
+    d = opened.definition(opened.parts["switch"]);d.remove(d.find("buses"))
+    def unplug(cids):
+        result = Sketch(data);idx = result.parts["power_hub"].get("modelIndex")
+        for view in ["breadboardView", "schematicView"]:
+            for cid in cids:
+                links = result.parts["power_hub"].find(f"views/{view}/connectors/connector[@connectorId='{cid}']/connects")
+                for ref in list(links):
+                    reciprocal = result.instances[ref.get("modelIndex")].find(
+                        f"views/{view}/connectors/connector[@connectorId='{ref.get('connectorId')}']/connects")
+                    for back in list(reciprocal):
+                        if back.get("modelIndex") == idx and back.get("connectorId") == cid:reciprocal.remove(back)
+                    links.remove(ref)
+        return result
+    no_switch = unplug(["connector2", "connector3"])
+    no_peripheral = unplug(["connector9", "connector10"])
+    # Compare all old electrical ports after moving the eight load pads to the lower board.
+    old = Sketch(git("show", f"{POWER_HUB_BASELINE}:{PREFIX}{stem}.fzz"))
+    old_ports = {k+"."+n for k in old.parts for _, n, _ in old.fingerprint(k)["connectors"]}
+    moved = {"power_dist."+n: "power_hub."+n for n in dist_names if n not in ["5V IN", "GND IN", "5V spare", "GND spare"]}
+    for key in ["battery", "switch", "l298n", "r1", "r2"]:assert sketch.fingerprint(key) == old.fingerprint(key)
     views = {}
     for view in ["breadboardView", "schematicView"]:
-        l298_index = sketch.parts["l298n"].get("modelIndex")
-        attached = sketch.parts["l298n"].findall(f"views/{view}/connectors/connector")
-        assert len(attached) == 3 and all(len(c.findall("connects/connect")) == 1 for c in attached), f"Expected three L298N wires: {view}"
-        assert sum(1 for item in sketch.instances.values() if item.get("moduleIdRef") == "WireModuleID"
-                   for ref in item.findall(f"views/{view}/connectors/connector/connects/connect")
-                   if ref.get("modelIndex") == l298_index) == 3, f"Extra L298N wires: {view}"
-        assert project(sketch.graph(view), allowed) == sorted(map(sorted, [raw | switched, ground, logic, adc])), f"Power hub ON: {view}"
-        assert project(opened.graph(view), allowed) == sorted(map(sorted, [raw, switched, ground, logic, adc])), f"Power hub OFF: {view}"
-        assert project(unplugged.graph(view), allowed) == sorted(map(sorted, [
-            raw - {"switch.IN"}, switched - {"switch.OUT"}, {"switch.IN", "switch.OUT"}, ground, logic, adc])), f"Power hub SW unplugged: {view}"
+        nets = sketch.graph(view)
+        assert project(nets, allowed) == sorted(map(sorted, [raw | switched, ground, logic, adc]))
+        assert project(opened.graph(view), allowed) == sorted(map(sorted, [raw, switched, ground, logic, adc]))
+        assert project(no_switch.graph(view), allowed) == sorted(map(sorted, [
+            raw - {"switch.IN"}, switched - {"switch.OUT"}, {"switch.IN", "switch.OUT"}, ground, logic, adc]))
+        translated = [{moved.get(p, p) for p in net} for net in nets]
+        assert project(translated, old_ports) == project(old.graph(view), old_ports), f"Topology changed beyond relocation: {view}"
+        for supply in ["5V", "GND"]:
+            assert not any({f"power_hub.{supply} periferial", f"power_dist.{supply} IN"} <= net
+                           for net in no_peripheral.graph(view)), f"Peripheral remains connected after unplugging: {view}"
+        for key, count in [("l298n", 3), ("power_dist", 2)]:
+            links = sketch.parts[key].findall(f"views/{view}/connectors/connector/connects/connect")
+            assert len(links) == count, f"Expected exactly {count} cable wires: {key}/{view}"
         for key in ["r1", "r2"]:
-            assert not any({key+".1", key+".2"} <= group for group in sketch.graph(view)), f"Bypassed divider resistor: {key}/{view}"
-            geometry = sketch.parts[key].find(f"views/{view}/geometry")
-            hub_geometry = sketch.parts["power_hub"].find(f"views/{view}/geometry")
-            local_x = float(geometry.get("x"))-float(hub_geometry.get("x"))
-            local_y = float(geometry.get("y"))-float(hub_geometry.get("y"))
-            assert 74 <= local_x <= 800 and 710 <= local_y <= 880, f"Resistor outside hub: {key}/{view}"
-        # Every referenced native connector has both a clickable pin and a terminal.
-        for instance in sketch.parts.values():
-            definition = sketch.definition(instance)
-            layers = definition.find(f"views/{view}/layers")
-            svg = ET.fromstring(sketch.files["svg."+layers.get("image").replace("/", ".")])
-            ids = {node.get("id") for node in svg.iter() if node.get("id")}
-            for connector in definition.findall("connectors/connector"):
-                p = connector.find(f"views/{view}/p")
-                assert p.get("svgId") in ids and p.get("terminalId") in ids, (view, connector.get("id"))
+            assert not any({key+".1", key+".2"} <= net for net in nets)
+            geo = sketch.parts[key].find(f"views/{view}/geometry")
+            hub_geo = sketch.parts["power_hub"].find(f"views/{view}/geometry")
+            x = float(geo.get("x"))-float(hub_geo.get("x"));y = float(geo.get("y"))-float(hub_geo.get("y"))
+            assert 80 <= x <= 800 and 110 <= y <= 780, f"Resistor outside main power board: {key}/{view}"
+        hub_geo = sketch.parts["power_hub"].find(f"views/{view}/geometry")
+        dist_geo = sketch.parts["power_dist"].find(f"views/{view}/geometry")
+        assert float(dist_geo.get("y")) >= float(hub_geo.get("y"))+980, f"Distribution board is not below main board: {view}"
+        for key, instance in sketch.parts.items():
+            d = sketch.definition(instance);image = d.find(f"views/{view}/layers").get("image")
+            art = ET.fromstring(sketch.files["svg."+image.replace("/", ".")]);ids = {n.get("id") for n in art.iter() if n.get("id")}
+            for c in d.findall("connectors/connector"):
+                p = c.find(f"views/{view}/p");assert {p.get("svgId"), p.get("terminalId")} <= ids
+                if key == "power_hub":
+                    t = next(n for n in art.iter() if n.get("id") == p.get("terminalId"))
+                    y = float(t.get("y"))+float(t.get("height"))/2
+                    if c.get("id") in ["connector0", "connector1", "connector2", "connector3"]:assert y <= 110, "BAT/SW not at top"
+                    if c.get("id") in ["connector9", "connector10"]:assert y >= 880, "periferial not at bottom"
         views[view] = {"status": "pass", "ports": len(allowed), "ON_nets": 4, "OFF_nets": 5,
+                       "BAT_and_SW_at_top": True, "periferial_at_bottom": True,
+                       "distribution_board_below_main_board": True, "peripheral_cable_wires": 2,
+                       "unplugged_peripheral_isolated": True, "L298N_supply_wires": 3,
                        "switch_opens_VBAT_OUT": True, "unplugged_SW_opens_VBAT_OUT": True,
-                       "5V_separate_from_VBAT_and_GND": True,
-                       "L298N_supply_wires": 3, "5V_source": "L298N.5V (5V-EN ON)",
-                       "Nano_hub_connection": "GND + A7 (USB power)", "all_hub_pins_named_by_destination": True,
-                       "divider": {"R1": "20 кОм", "R2": "10 кОм", "A7_net": sorted(adc),
-                                   "ratio": "1/3", "V_A7_at_VBAT_12_6": 4.2,
-                                   "resistors_inside_hub": True, "no_resistor_bypass": True}}
-    print(f"PASS {stem}.fzz: BAT + SW, three L298N wires, R1 20k / R2 10k to A7, ON/OFF, both views")
+                       "original_topology_preserved_after_moving_load_pads": True,
+                       "Nano_hub_connection": "A7 + GND (USB power)",
+                       "divider": {"R1": "20 кОм", "R2": "10 кОм", "ratio": "1/3", "A7_net": sorted(adc),
+                                   "resistors_inside_main_board": True, "no_resistor_bypass": True}}
+    print(f"PASS {stem}.fzz: BAT/SW top, periferial bottom, separate header below with two wires, A7 divider, ON/OFF, both views")
     return {"file": stem+".fzz", "sha256": sha256(data).hexdigest(), "views": views,
-            "method": "explicit connector contract; switch bus removed for OFF"}
+            "reference_baseline_commit": git("rev-parse", POWER_HUB_BASELINE).decode().strip(),
+            "method": "explicit connector contract + original hub topology mapped onto separate distribution board"}
 
 
 def main():
