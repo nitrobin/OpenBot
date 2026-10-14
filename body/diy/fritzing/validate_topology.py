@@ -212,6 +212,20 @@ def validate_power_hub(shared_artwork):
         hub_geo = sketch.parts["power_hub"].find(f"views/{view}/geometry")
         dist_geo = sketch.parts["power_dist"].find(f"views/{view}/geometry")
         assert float(dist_geo.get("y")) >= float(hub_geo.get("y"))+980, f"Distribution board is not below main board: {view}"
+        battery_geo = sketch.parts["battery"].find(f"views/{view}/geometry")
+        battery_image = sketch.definition(sketch.parts["battery"]).find(f"views/{view}/layers").get("image")
+        battery_art = ET.fromstring(sketch.files["svg."+battery_image.replace("/", ".")])
+        battery_height = float(battery_art.get("viewBox").split()[3])
+        assert float(battery_geo.get("y"))+battery_height <= float(hub_geo.get("y"))+110, f"Battery is not above the board: {view}"
+        battery_links = sketch.parts["battery"].findall(f"views/{view}/connectors/connector/connects/connect")
+        assert len(battery_links) == 2, f"Battery needs exactly two straight wires: {view}"
+        for link in battery_links:
+            wire = sketch.instances[link.get("modelIndex")]
+            assert wire.get("moduleIdRef") == "WireModuleID"
+            geometry = wire.find(f"views/{view}/geometry")
+            assert abs(float(geometry.get("x2"))-float(geometry.get("x1"))) < 1e-6, f"Battery wire is not vertical: {view}"
+        nano_pins = []
+        peripheral_pins = []
         for key, instance in sketch.parts.items():
             d = sketch.definition(instance);image = d.find(f"views/{view}/layers").get("image")
             art = ET.fromstring(sketch.files["svg."+image.replace("/", ".")]);ids = {n.get("id") for n in art.iter() if n.get("id")}
@@ -219,11 +233,19 @@ def validate_power_hub(shared_artwork):
                 p = c.find(f"views/{view}/p");assert {p.get("svgId"), p.get("terminalId")} <= ids
                 if key == "power_hub":
                     t = next(n for n in art.iter() if n.get("id") == p.get("terminalId"))
+                    x = float(t.get("x"))+float(t.get("width"))/2
                     y = float(t.get("y"))+float(t.get("height"))/2
                     if c.get("id") in ["connector0", "connector1", "connector2", "connector3"]:assert y <= 110, "BAT/SW not at top"
                     if c.get("id") in ["connector9", "connector10"]:assert y >= 880, "periferial not at bottom"
+                    if c.get("id") in ["connector7", "connector8"]:
+                        assert y >= 880, "Nano connector not at bottom"
+                        nano_pins.append(x)
+                    if c.get("id") in ["connector9", "connector10"]:peripheral_pins.append(x)
+        assert max(nano_pins) < min(peripheral_pins), f"Nano connector is not left of the distribution connector: {view}"
         views[view] = {"status": "pass", "ports": len(allowed), "ON_nets": 4, "OFF_nets": 5,
                        "BAT_and_SW_at_top": True, "periferial_at_bottom": True,
+                       "Nano_connector_at_bottom_left": True, "battery_above_board": True,
+                       "battery_wires_straight_vertical": True,
                        "distribution_board_below_main_board": True, "peripheral_cable_wires": 2,
                        "unplugged_peripheral_isolated": True, "L298N_supply_wires": 3,
                        "switch_opens_VBAT_OUT": True, "unplugged_SW_opens_VBAT_OUT": True,
@@ -231,7 +253,7 @@ def validate_power_hub(shared_artwork):
                        "Nano_hub_connection": "A7 + GND (USB power)",
                        "divider": {"R1": "20 кОм", "R2": "10 кОм", "ratio": "1/3", "A7_net": sorted(adc),
                                    "resistors_inside_main_board": True, "no_resistor_bypass": True}}
-    print(f"PASS {stem}.fzz: BAT/SW top, periferial bottom, separate header below with two wires, A7 divider, ON/OFF, both views")
+    print(f"PASS {stem}.fzz: battery above board with two straight wires, Nano bottom-left, separate header, A7 divider, ON/OFF, both views")
     return {"file": stem+".fzz", "sha256": sha256(data).hexdigest(), "views": views,
             "reference_baseline_commit": git("rev-parse", POWER_HUB_BASELINE).decode().strip(),
             "method": "explicit connector contract + original hub topology mapped onto separate distribution board"}

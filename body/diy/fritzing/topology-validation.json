@@ -89,7 +89,7 @@
     },
     {
       "file": "openbot-diy-power-hub.fzz",
-      "sha256": "74c10091634eb2d405b71fc0a282b1e0fae0c528ab07dc2b070194e989c696ff",
+      "sha256": "198e0b7871511359548681e8a31b07643ea1f387f407e19a581f86b64e342d1b",
       "views": {
         "breadboardView": {
           "status": "pass",
@@ -98,6 +98,9 @@
           "OFF_nets": 5,
           "BAT_and_SW_at_top": true,
           "periferial_at_bottom": true,
+          "Nano_connector_at_bottom_left": true,
+          "battery_above_board": true,
+          "battery_wires_straight_vertical": true,
           "distribution_board_below_main_board": true,
           "peripheral_cable_wires": 2,
           "unplugged_peripheral_isolated": true,
@@ -126,6 +129,9 @@
           "OFF_nets": 5,
           "BAT_and_SW_at_top": true,
           "periferial_at_bottom": true,
+          "Nano_connector_at_bottom_left": true,
+          "battery_above_board": true,
+          "battery_wires_straight_vertical": true,
           "distribution_board_below_main_board": true,
           "peripheral_cable_wires": 2,
           "unplugged_peripheral_isolated": true,

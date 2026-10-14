@@ -1,8 +1,10 @@
 # OpenBot DIY power hub
 
 [Editable Fritzing file](openbot-diy-power-hub.fzz), with short English labels.
-The A7/GND connector stays on the left edge. J5 has GND on the left and 5V on
-the right; the orange 5V link follows the right and bottom edges. The separate
+J4 sits at the bottom, to the left of J5, with GND on the left and A7 on the
+right. The battery holder is turned 90° clockwise above the board, beside the
+switch; both battery wires go straight down to BAT. J5 has GND on the left
+and 5V on the right; the orange 5V link follows the right and bottom edges. The separate
 distribution header below uses the same column order and two straight wires.
 
 ![Power hub](openbot-diy-power-hub.png)
