@@ -1,0 +1,255 @@
+{
+  "version": 1,
+  "languages": {
+    "en": "English",
+    "ru": "Русский",
+    "de": "Deutsch",
+    "es": "Español",
+    "fr": "Français",
+    "zh": "简体中文",
+    "ko": "한국어",
+    "hi": "हिन्दी"
+  },
+  "labels": {
+    "heading": {
+      "en": "OpenBot DIY · Power hub",
+      "ru": "OpenBot DIY · Плата питания",
+      "de": "OpenBot DIY · Stromversorgung",
+      "es": "OpenBot DIY · Alimentación",
+      "fr": "OpenBot DIY · Alimentation",
+      "zh": "OpenBot DIY · 电源分配",
+      "ko": "OpenBot DIY · 전원 분배",
+      "hi": "OpenBot DIY · पावर हब"
+    },
+    "max_voltage": {
+      "en": "max 12.6 V",
+      "ru": "до 12,6 В",
+      "de": "max. 12,6 V",
+      "es": "máx. 12,6 V",
+      "fr": "max. 12,6 V",
+      "zh": "最高 12.6 V",
+      "ko": "최대 12.6 V",
+      "hi": "अधिकतम 12.6 V"
+    },
+    "power": {
+      "en": "Power",
+      "ru": "Питание",
+      "de": "Strom",
+      "es": "Alimentación",
+      "fr": "Alimentation",
+      "zh": "电源",
+      "ko": "전원",
+      "hi": "पावर"
+    },
+    "input": {
+      "en": "+12V: in",
+      "ru": "+12V: вход",
+      "de": "+12V: Eingang",
+      "es": "+12V: entrada",
+      "fr": "+12V : entrée",
+      "zh": "+12V: 输入",
+      "ko": "+12V: 입력",
+      "hi": "+12V: इनपुट"
+    },
+    "output": {
+      "en": "5V: out",
+      "ru": "5V: выход",
+      "de": "5V: Ausgang",
+      "es": "5V: salida",
+      "fr": "5V : sortie",
+      "zh": "5V: 输出",
+      "ko": "5V: 출력",
+      "hi": "5V: आउटपुट"
+    },
+    "regulator": {
+      "en": "5V-EN ON · 5V output",
+      "ru": "5V-EN ON · выход 5V",
+      "de": "5V-EN ON · 5V-Ausgang",
+      "es": "5V-EN ON · salida 5V",
+      "fr": "5V-EN ON · sortie 5V",
+      "zh": "5V-EN ON · 5V 输出",
+      "ko": "5V-EN ON · 5V 출력",
+      "hi": "5V-EN ON · 5V आउटपुट"
+    },
+    "loads": {
+      "en": "5V → OLED + sensors",
+      "ru": "5V → OLED + датчики",
+      "de": "5V → OLED + Sensoren",
+      "es": "5V → OLED + sensores",
+      "fr": "5V → OLED + capteurs",
+      "zh": "5V → OLED + 传感器",
+      "ko": "5V → OLED + 센서",
+      "hi": "5V → OLED + सेंसर"
+    },
+    "rating": {
+      "en": "Check module voltage limit",
+      "ru": "Проверь предел напряжения модуля",
+      "de": "Spannungsgrenze des Moduls prüfen",
+      "es": "Verifica el límite del módulo",
+      "fr": "Vérifier la limite du module",
+      "zh": "检查模块电压上限",
+      "ko": "모듈 전압 한계 확인",
+      "hi": "मॉड्यूल की वोल्टेज सीमा जाँचें"
+    },
+    "board": {
+      "en": "POWER BOARD",
+      "ru": "ПЛАТА ПИТАНИЯ",
+      "de": "STROMPLATINE",
+      "es": "PLACA DE ALIMENTACIÓN",
+      "fr": "CARTE D’ALIMENTATION",
+      "zh": "电源板",
+      "ko": "전원 보드",
+      "hi": "पावर बोर्ड"
+    },
+    "divider": {
+      "en": "VBAT divider",
+      "ru": "Делитель VBAT",
+      "de": "VBAT-Teiler",
+      "es": "Divisor VBAT",
+      "fr": "Diviseur VBAT",
+      "zh": "VBAT 分压器",
+      "ko": "VBAT 분압기",
+      "hi": "VBAT विभाजक"
+    },
+    "after_switch": {
+      "en": "VBAT after SW",
+      "ru": "VBAT после SW",
+      "de": "VBAT nach SW",
+      "es": "VBAT tras SW",
+      "fr": "VBAT après SW",
+      "zh": "SW 后的 VBAT",
+      "ko": "SW 이후 VBAT",
+      "hi": "SW के बाद VBAT"
+    },
+    "to_header": {
+      "en": "To header ↓",
+      "ru": "К колодке ↓",
+      "de": "Zum Verteiler ↓",
+      "es": "Al distribuidor ↓",
+      "fr": "Vers le répartiteur ↓",
+      "zh": "至分线排 ↓",
+      "ko": "분배 단자로 ↓",
+      "hi": "हेडर की ओर ↓"
+    },
+    "distribution": {
+      "en": "DISTRIBUTION · 6 × 2",
+      "ru": "КОЛОДКА · 6 × 2",
+      "de": "VERTEILER · 6 × 2",
+      "es": "DISTRIBUCIÓN · 6 × 2",
+      "fr": "RÉPARTITEUR · 6 × 2",
+      "zh": "分线排 · 6 × 2",
+      "ko": "분배 단자 · 6 × 2",
+      "hi": "वितरण · 6 × 2"
+    },
+    "columns": {
+      "en": "GND left · 5V right",
+      "ru": "GND слева · 5V справа",
+      "de": "GND links · 5V rechts",
+      "es": "GND izquierda · 5V derecha",
+      "fr": "GND à gauche · 5V à droite",
+      "zh": "GND 左 · 5V 右",
+      "ko": "GND 왼쪽 · 5V 오른쪽",
+      "hi": "GND बायाँ · 5V दायाँ"
+    },
+    "r1": {
+      "en": "R1 · 20 kΩ",
+      "ru": "R1 · 20 кОм",
+      "de": "R1 · 20 kΩ",
+      "es": "R1 · 20 kΩ",
+      "fr": "R1 · 20 kΩ",
+      "zh": "R1 · 20 kΩ",
+      "ko": "R1 · 20 kΩ",
+      "hi": "R1 · 20 kΩ"
+    },
+    "r2": {
+      "en": "R2 · 10 kΩ",
+      "ru": "R2 · 10 кОм",
+      "de": "R2 · 10 kΩ",
+      "es": "R2 · 10 kΩ",
+      "fr": "R2 · 10 kΩ",
+      "zh": "R2 · 10 kΩ",
+      "ko": "R2 · 10 kΩ",
+      "hi": "R2 · 10 kΩ"
+    },
+    "usb": {
+      "en": "USB/OTG power",
+      "ru": "Питание USB/OTG",
+      "de": "Versorgung: USB/OTG",
+      "es": "Alimentación: USB/OTG",
+      "fr": "Alimentation : USB/OTG",
+      "zh": "USB/OTG 供电",
+      "ko": "USB/OTG 전원",
+      "hi": "USB/OTG से पावर"
+    },
+    "sense": {
+      "en": "A7: battery sense only",
+      "ru": "A7: только измерение батареи",
+      "de": "A7: nur Batteriemessung",
+      "es": "A7: solo mide la batería",
+      "fr": "A7 : mesure de batterie seule",
+      "zh": "A7: 仅测量电池电压",
+      "ko": "A7: 배터리 측정만",
+      "hi": "A7: केवल बैटरी मापन"
+    },
+    "colors": {
+      "en": "5V orange · GND black · VBAT red · A7 teal",
+      "ru": "5V оранжевый · GND чёрный · VBAT красный · A7 бирюзовый",
+      "de": "5V orange · GND schwarz · VBAT rot · A7 türkis",
+      "es": "5V naranja · GND negro · VBAT rojo · A7 turquesa",
+      "fr": "5V orange · GND noir · VBAT rouge · A7 turquoise",
+      "zh": "5V 橙色 · GND 黑色 · VBAT 红色 · A7 青色",
+      "ko": "5V 주황 · GND 검정 · VBAT 빨강 · A7 청록",
+      "hi": "5V नारंगी · GND काला · VBAT लाल · A7 फ़िरोज़ी"
+    },
+    "ratio": {
+      "en": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "ru": "A7 = VBAT / 3 · R1 20 кОм · R2 10 кОм",
+      "de": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "es": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "fr": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "zh": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "ko": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ",
+      "hi": "A7 = VBAT / 3 · R1 20 kΩ · R2 10 kΩ"
+    },
+    "cable": {
+      "en": "J5 → header: 5V + GND",
+      "ru": "J5 → колодка: 5V + GND",
+      "de": "J5 → Verteiler: 5V + GND",
+      "es": "J5 → distribuidor: 5V + GND",
+      "fr": "J5 → répartiteur : 5V + GND",
+      "zh": "J5 → 分线排: 5V + GND",
+      "ko": "J5 → 분배 단자: 5V + GND",
+      "hi": "J5 → हेडर: 5V + GND"
+    },
+    "perfboard": {
+      "en": "Perfboard: solder links; holes isolated",
+      "ru": "Макетная плата: пайка перемычек; отверстия изолированы",
+      "de": "Lochraster: Brücken löten; Löcher isoliert",
+      "es": "Placa perforada: soldar puentes; agujeros aislados",
+      "fr": "Plaque perforée : ponts soudés ; trous isolés",
+      "zh": "洞洞板: 焊接跳线; 孔位互不连接",
+      "ko": "만능기판: 점퍼 납땜; 구멍은 서로 절연",
+      "hi": "परफबोर्ड: जम्पर सोल्डर करें; छेद अलग हैं"
+    },
+    "battery": {
+      "en": "Battery · 3S",
+      "ru": "Батарея · 3S",
+      "de": "Batterie · 3S",
+      "es": "Batería · 3S",
+      "fr": "Batterie · 3S",
+      "zh": "电池 · 3S",
+      "ko": "배터리 · 3S",
+      "hi": "बैटरी · 3S"
+    },
+    "notes": {
+      "en": "Notes",
+      "ru": "Примечания",
+      "de": "Hinweise",
+      "es": "Notas",
+      "fr": "Notes",
+      "zh": "注释",
+      "ko": "메모",
+      "hi": "टिप्पणियाँ"
+    }
+  }
+}

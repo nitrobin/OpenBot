@@ -1,0 +1,61 @@
+{
+  "source": "openbot-diy-power-hub.fzz",
+  "source_sha256": "74c10091634eb2d405b71fc0a282b1e0fae0c528ab07dc2b070194e989c696ff",
+  "catalog_sha256": "f67a22f59d5250b2ce730170cd9686e8a9954caeae685d5f000eb34bdac9496f",
+  "generator_sha256": "9b8e5a6372e7475c29ba86ba5498e5cdad54b8e415e5204483ec453854be754f",
+  "discovered_languages": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "ko",
+    "ru",
+    "zh"
+  ],
+  "languages": [
+    "de",
+    "en",
+    "es",
+    "fr",
+    "hi",
+    "ko",
+    "ru",
+    "zh"
+  ],
+  "fallbacks": [],
+  "files": [
+    {
+      "path": "de/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "6bbd940594d28e8ac31eb42f89d5c65a87cd03665f54e5b70d15550989699bc5"
+    },
+    {
+      "path": "en/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "c575bfb9a3abad86cf1318c27933e0555ec18dc2b40efc7b684d8e9d0e782f89"
+    },
+    {
+      "path": "es/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "0982deb50a4850c3304afe51cc44dd84462785384e25b1c6138c3075b82eb8d3"
+    },
+    {
+      "path": "fr/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "75d1eea8aaea1f3c2127719f88851ee9bcbe8a0ea952588dd0ea3a6a0eb87ec4"
+    },
+    {
+      "path": "hi/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "4d0223164d163e5cc64273909c5e61073d2c95b8e688dbdcdc0dbffc96014be8"
+    },
+    {
+      "path": "ko/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "7be5f1aea6625ce1f8d76a8417dbe4b68c77bb833caba52f8c30a7bd600d5aea"
+    },
+    {
+      "path": "ru/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "3253a3cdb12c0a79c572520562fa4210b4d85c9aae95bd3510892225ad9c3a2d"
+    },
+    {
+      "path": "zh/openbot-diy-power-hub-breadboard.svg",
+      "sha256": "7696151eb77d3aae031e958ac33b5d8c5b68981e1546fc13b141774108fa521a"
+    }
+  ]
+}
